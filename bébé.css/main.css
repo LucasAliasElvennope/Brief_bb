@@ -3,8 +3,12 @@ body {
   font-family: "M PLUS Rounded 1c", sans-serif;
 }
 
+#textFooter {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+}
+
 #header {
-  background-color: #FAFAF0;
+  background-color: #9FB3DF;
   padding: 30px;
   display: flex;
   justify-content: center;
@@ -60,6 +64,80 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+body {
+  background-color: #F5F5F5;
+}
+
+#btnAccueil {
+  color: #333;
+  background-color: #FADADD;
+  border: 1px solid #333;
+}
+#btnAccueil:hover {
+  background-color: #C8BFE7;
+  color: #ffffff;
+}
+
+#btnStudio {
+  color: #333;
+  background-color: #FADADD;
+  border: 1px solid #333;
+}
+#btnStudio:hover {
+  background-color: #C8BFE7;
+  color: #ffffff;
+}
+
+#btnGalerie {
+  color: #333;
+  background-color: #FADADD;
+  border: 1px solid #333;
+}
+#btnGalerie:hover {
+  background-color: #C8BFE7;
+  color: #ffffff;
+}
+
+#btnTarifs {
+  color: #333;
+  background-color: #FADADD;
+  border: 1px solid #333;
+}
+#btnTarifs:hover {
+  background-color: #C8BFE7;
+  color: #ffffff;
+}
+
+#btnAPropos {
+  color: #333;
+  background-color: #FADADD;
+  border: 1px solid #333;
+}
+#btnAPropos:hover {
+  background-color: #C8BFE7;
+  color: #ffffff;
+}
+
+#btnContact {
+  color: #333;
+  background-color: #FADADD;
+  border: 1px solid #333;
+}
+#btnContact:hover {
+  background-color: #C8BFE7;
+  color: #ffffff;
+}
+
+#footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+  background-color: #BDDDE4;
+  color: #333;
 }
 
 /*# sourceMappingURL=main.css.map */

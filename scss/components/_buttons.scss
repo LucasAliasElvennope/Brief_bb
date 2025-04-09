@@ -1,1 +1,68 @@
+@use "../abstracts/variables" as *;
 
+#btnAccueil {
+    color: #333;
+    background-color: #FADADD;
+    border: 1px solid #333;
+    
+    &:hover {
+        background-color: $violet-accent;
+        color: #ffffff;
+    }
+}
+
+
+#btnStudio {
+    color: #333;
+    background-color: #FADADD;
+    border: 1px solid #333;
+    
+    &:hover {
+        background-color: $violet-accent;
+        color: #ffffff;
+    }
+}
+
+#btnGalerie {
+    color: #333;
+    background-color: #FADADD;
+    border: 1px solid #333;
+    
+    &:hover {
+        background-color: $violet-accent;
+        color: #ffffff;
+    }
+}
+
+#btnTarifs {
+    color: #333;
+    background-color: #FADADD;
+    border: 1px solid #333;
+    
+    &:hover {
+        background-color: $violet-accent;
+        color: #ffffff;
+    }
+}
+
+#btnAPropos {
+    color: #333;
+    background-color: #FADADD;
+    border: 1px solid #333;
+    
+    &:hover {
+        background-color: $violet-accent;
+        color: #ffffff;
+    }
+}
+
+#btnContact {
+    color: #333;
+    background-color: #FADADD;
+    border: 1px solid #333;
+    
+    &:hover {
+        background-color: $violet-accent;
+        color: #ffffff;
+    }
+}
