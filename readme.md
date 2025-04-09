@@ -24,3 +24,18 @@ Le site se compose des **7 pages** suivantes :
 5. 📝 Blog  
 6. 👩‍🍼 À propos  
 7. 📬 Contact 
+
+Chaque page a été pensée pour offrir une expérience utilisateur fluide, agréable et mobile-first 📱.
+
+---
+
+## 💡 Prestations proposées
+
+La cliente propose 3 types de shootings photo :
+
+- 📷 En studio  
+- 🏠 À domicile  
+- 🌳 En extérieur (parcs, maternités…)
+
+---
+
