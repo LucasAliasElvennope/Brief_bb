@@ -17,3 +17,10 @@ Créer un site web complet et responsive (HTML/CSS) mettant en valeur le **trava
 
 Le site se compose des **7 pages** suivantes :
 
+1. 🏠 Accueil  
+2. 🏢 Le Studio  
+3. 🖼️ Galerie  
+4. 💰 Tarifs  
+5. 📝 Blog  
+6. 👩‍🍼 À propos  
+7. 📬 Contact 
