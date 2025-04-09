@@ -39,3 +39,9 @@ La cliente propose 3 types de shootings photo :
 
 ---
 
+## 🎨 Design & Contenu
+
+- 🖼️ Images issues de **librairies libres de droits** : [Pexels](https://www.pexels.com), [Pixabay](https://www.pixabay.com), [Unsplash](https://www.unsplash.com)
+- 📝 Textes fictifs avec **Lorem Ipsum**
+- 🎨 Palette douce et typographies adaptées à l’univers bébé/famille
+- 📐 Design responsive avec **wireframes Desktop / Tablet / Mobile**
