@@ -56,3 +56,16 @@ La cliente propose 3 types de shootings photo :
 - `Emmet` pour accélérer la production  
 - Un **seul fichier CSS compilé**  
 - Favicon personnalisée
+
+---
+
+## ✅ Contraintes techniques
+
+- 💡 Démarrage à partir d’un **boilerplate** personnalisé  
+- 📦 Versioning complet et clair avec Git  
+- 📋 Passage sans erreurs au [W3C Validator](https://validator.w3.org/)  
+- 📄 README propre et explicite  
+- 🚀 Publication en ligne via GitHub Pages
+
+---
+
