@@ -24,6 +24,13 @@ body {
   height: auto;
 }
 
+#nav {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
 #title {
   display: flex;
   justify-content: center;
