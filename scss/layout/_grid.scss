@@ -1,0 +1,22 @@
+#boite {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    place-items: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#box2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    place-items: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    p {
+        text-align: center;
+    }
+}
