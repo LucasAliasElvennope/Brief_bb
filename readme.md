@@ -69,3 +69,20 @@ La cliente propose 3 types de shootings photo :
 
 ---
 
+# 📂 Structure SCSS (7-1)
+
+Le projet suit l’architecture **7-1** pour SCSS :
+
+```
+sass/
+│
+├── abstracts/   // variables, mixins, fonctions
+├── base/        // reset, base, typographie
+├── components/  // boutons, formulaires...
+├── layout/      // header, footer, navigation
+├── pages/       // home, about, gallery...
+├── themes/      // thème clair/sombre (optionnel)
+├── vendors/     // bibliothèques externes
+└── main.scss    // fichier principal (import de tout)
+```
+
