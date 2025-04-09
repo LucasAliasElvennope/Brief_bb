@@ -71,10 +71,16 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  border: 1px solid #333;
+  border-radius: 10px;
+}
+#enceinte:hover {
+  background-color: #C8BFE7;
+  color: #ffffff;
 }
 
 body {
-  background-color: #F5F5F5;
+  background-color: #FFF1D5;
 }
 
 #btnAccueil {
