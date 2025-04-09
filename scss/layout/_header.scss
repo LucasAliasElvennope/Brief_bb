@@ -1,23 +1,23 @@
 #header {
   background-color: #9FB3DF;
-  padding: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   text-align: center;
+  padding: 30px;
 }
 
 #logo {
   display: flex;
   align-self: center;
-  max-width: 120px;
+  max-width: 220px;
   height: auto
 }
 
 #nav {
     display: flex;
-    gap: 100px;
+    gap: 200px;
     justify-content: center;
     align-items: center;
 }
