@@ -83,6 +83,6 @@ sass/
 ├── pages/       // home, about, gallery...
 ├── themes/      // thème clair/sombre (optionnel)
 ├── vendors/     // bibliothèques externes
-└── main.scss    // fichier principal (import de tout)
+└── main.scss    // fichier principal (import de tout)  
 ```
 
