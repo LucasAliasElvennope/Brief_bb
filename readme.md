@@ -45,3 +45,14 @@ La cliente propose 3 types de shootings photo :
 - 📝 Textes fictifs avec **Lorem Ipsum**
 - 🎨 Palette douce et typographies adaptées à l’univers bébé/famille
 - 📐 Design responsive avec **wireframes Desktop / Tablet / Mobile**
+
+---
+
+## 🛠️ Technologies utilisées
+
+- `HTML5` sémantique  
+- `SCSS` avec architecture **7-1**  
+- `CSS Grid` et `Flexbox` pour toutes les mises en page  
+- `Emmet` pour accélérer la production  
+- Un **seul fichier CSS compilé**  
+- Favicon personnalisée
