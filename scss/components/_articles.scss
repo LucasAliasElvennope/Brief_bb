@@ -1,6 +1,7 @@
-#enceinte {
-    width: 1000px;
-    height: 500px;
+#box {
+    background-color: black;
+    width: 700px;
+    height: 350px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -12,13 +13,10 @@
     }
 }
 
-body {
-    background-color: #FFF1D5;
-}
-
-#img1 {
-    width: 500px;
-    height: 250px;
+#box3 {
+    background-color: black;
+    width: 700px;
+    height: 350px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -30,17 +28,5 @@ body {
     }
 }
 
-#img2 {
-    width: 500px;
-    height: 250px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid #333;
-    border-radius: 10px;
-    &:hover {
-        background-color: #C8BFE7;
-        color: #ffffff;
-    }
-}
+
 

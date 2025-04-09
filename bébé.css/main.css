@@ -52,7 +52,7 @@ body {
   text-align: center;
 }
 
-#box2 {
+#boite2 {
   display: grid;
   grid-template-columns: 1fr;
   gap: 10px;
@@ -61,8 +61,33 @@ body {
   justify-content: center;
   text-align: center;
 }
-#box2 p {
+#boite2 p {
   text-align: center;
+}
+
+#boite3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  place-items: center;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+#boite3 p {
+  text-align: center;
+}
+
+#box {
+  grid-column: 1/1;
+}
+
+#box3 {
+  grid-column: 1/2;
+}
+
+#box4 {
+  grid-column: 2/3;
 }
 
 #enceinte {
@@ -81,6 +106,34 @@ body {
 
 body {
   background-color: #FFF1D5;
+}
+
+#img1 {
+  width: 500px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #333;
+  border-radius: 10px;
+}
+#img1:hover {
+  background-color: #C8BFE7;
+  color: #ffffff;
+}
+
+#img2 {
+  width: 500px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #333;
+  border-radius: 10px;
+}
+#img2:hover {
+  background-color: #C8BFE7;
+  color: #ffffff;
 }
 
 #btnAccueil {
