@@ -32,6 +32,18 @@ body {
   align-items: center;
 }
 
+.btn {
+  background-color: #D8A7B1;
+  color: white;
+  border: 1px solid #D8A7B1;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+.btn:hover {
+  background-color: #C8BFE7;
+  color: #ffffff;
+}
+
 #title {
   display: flex;
   justify-content: center;
@@ -117,13 +129,16 @@ body {
 
 #espace {
   grid-column: 1/1;
-  background-color: #C8BFE7;
   height: 100px;
 }
 
 #espace1 {
   grid-column: 1/1;
-  background-color: #C8BFE7;
+  height: 70px;
+}
+
+#espace2 {
+  grid-column: 1/1;
   height: 70px;
 }
 
@@ -180,78 +195,6 @@ body {
   border-radius: 10px;
 }
 #img2:hover {
-  background-color: #C8BFE7;
-  color: #ffffff;
-}
-
-#btnAccueil {
-  color: #333;
-  background-color: #E9A6B0;
-  border: 1px solid #333;
-  border-radius: 10px;
-  padding: 10px 20px;
-}
-#btnAccueil:hover {
-  background-color: #C8BFE7;
-  color: #ffffff;
-}
-
-#btnStudio {
-  color: #333;
-  background-color: #E9A6B0;
-  border: 1px solid #333;
-  border-radius: 10px;
-  padding: 10px 20px;
-}
-#btnStudio:hover {
-  background-color: #C8BFE7;
-  color: #ffffff;
-}
-
-#btnGalerie {
-  color: #333;
-  background-color: #E9A6B0;
-  border: 1px solid #333;
-  border-radius: 10px;
-  padding: 10px 20px;
-}
-#btnGalerie:hover {
-  background-color: #C8BFE7;
-  color: #ffffff;
-}
-
-#btnTarifs {
-  color: #333;
-  background-color: #E9A6B0;
-  border: 1px solid #333;
-  border-radius: 10px;
-  padding: 10px 20px;
-}
-#btnTarifs:hover {
-  background-color: #C8BFE7;
-  color: #ffffff;
-}
-
-#btnAPropos {
-  color: #333;
-  background-color: #E9A6B0;
-  border: 1px solid #333;
-  border-radius: 10px;
-  padding: 10px 20px;
-}
-#btnAPropos:hover {
-  background-color: #C8BFE7;
-  color: #ffffff;
-}
-
-#btnContact {
-  color: #333;
-  background-color: #E9A6B0;
-  border: 1px solid #333;
-  border-radius: 10px;
-  padding: 10px 20px;
-}
-#btnContact:hover {
   background-color: #C8BFE7;
   color: #ffffff;
 }
