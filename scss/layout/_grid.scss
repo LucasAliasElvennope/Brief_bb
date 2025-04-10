@@ -70,6 +70,16 @@
     text-align: center;
   }
 
+  #container1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    place-items: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
   #espace {
     grid-column: 1/1;
     height: 100px;
