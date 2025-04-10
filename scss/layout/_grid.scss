@@ -17,9 +17,6 @@
     justify-content: center;
     text-align: center;
   }
-  #boite2 p {
-    text-align: center;
-  }
 
 #boite3 {
     display: grid;
@@ -27,9 +24,12 @@
     gap: 20px;
     place-items: center;
     text-align: center;
-  
-    & p {
-      text-align: center;
+    align-items: center;
+    
+    article {
+        background-color: #E3A6A1;
+        border: 2px solid #333;
+        border-radius: 20px;
     }
   }
   
@@ -73,6 +73,21 @@
   #espace {
     grid-column: 1/1;
     background-color: #C8BFE7;
-    height: 200px;
+    height: 100px;
   }
+  
+  #espace1 {
+    grid-column: 1/1;
+    background-color: #C8BFE7;
+    height: 70px;
+  }
+
+.imgBox {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border: 2px solid #333;
+  border-radius: 50%;
+  object-fit: cover;
+  }
+    
   
