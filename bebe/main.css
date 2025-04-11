@@ -246,6 +246,22 @@ body {
   border-radius: 20px;
 }
 
+#gallerie {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+  place-items: center;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+#gallerie .imgGallerie {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #333;
+  border-radius: 20px;
+}
+
 #enceinte {
   width: 1000px;
   height: 500px;
