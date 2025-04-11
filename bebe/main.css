@@ -18,6 +18,23 @@ body {
   padding: 30px;
 }
 
+#header_studio {
+  background-color: #FFE4E1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 30px;
+}
+
+#logo_studio {
+  display: flex;
+  align-self: center;
+  max-width: 250px;
+  height: auto;
+}
+
 #logo {
   display: flex;
   align-self: center;
@@ -210,6 +227,16 @@ body {
 }
 
 #footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+  background-color: #FFE4E1;
+  color: #333;
+}
+
+#footer_studio {
   display: flex;
   justify-content: center;
   align-items: center;
