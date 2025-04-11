@@ -246,20 +246,19 @@ body {
   border-radius: 20px;
 }
 
-#gallerie {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 10px;
-  place-items: center;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+.masonry {
+  column-count: 3;
+  column-gap: 10px;
 }
-#gallerie .imgGallerie {
-  width: 200px;
-  height: 200px;
-  border: 1px solid #333;
-  border-radius: 20px;
+.masonry img {
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  break-inside: avoid;
+  transition: transform 0.3s ease;
+}
+.masonry img:hover {
+  transform: scale(1.05);
 }
 
 #enceinte {
