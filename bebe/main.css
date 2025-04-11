@@ -103,7 +103,7 @@ body {
   text-align: center;
 }
 
-#boite2 {
+#boite1 {
   display: grid;
   grid-template-columns: 1fr;
   gap: 10px;
@@ -113,7 +113,7 @@ body {
   text-align: center;
 }
 
-#boite3 {
+#boite2 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
@@ -121,7 +121,7 @@ body {
   text-align: center;
   align-items: center;
 }
-#boite3 article {
+#boite2 article {
   background-color: #FFD1DC;
   border: 2px solid #333;
   border-radius: 20px;
@@ -215,6 +215,23 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
+}
+
+#boite2_studio {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+  place-items: center;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#int, #ext {
+  width: 700px;
+  height: 500px;
+  border: 1px solid #333;
+  border-radius: 20px;
 }
 
 #enceinte {
