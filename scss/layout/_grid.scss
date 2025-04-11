@@ -102,4 +102,22 @@
   object-fit: cover;
   }
     
-  
+  #box_studio {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    place-items: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  #boite1_studio {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    place-items: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }

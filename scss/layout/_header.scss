@@ -1,5 +1,6 @@
 #header {
-  background-color: #FFE4E1;
+  width: 100%;
+  background-color: #fddaf8;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,7 +10,7 @@
 }
 
 #header_studio {
-  background-color: #FFE4E1;
+  background-color: #fddaf8;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -38,6 +39,14 @@
     justify-content: center;
     align-items: center;
 }
+
+#nav_studio {
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
 .btn {
     background-color: #D8A7B1;
     color: white;
