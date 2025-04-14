@@ -303,7 +303,7 @@ body {
 
 .box-tarifs {
   width: 700px;
-  height: 1000px;
+  height: 1090px;
   background-color: #FFD1DC;
   color: #333;
   border-radius: 20px;
@@ -314,7 +314,7 @@ body {
 
 .box-tarifs img {
   width: 90%;
-  height: 70%;
+  height: 60%;
   object-fit: cover;
   border-radius: 20px;
 }
