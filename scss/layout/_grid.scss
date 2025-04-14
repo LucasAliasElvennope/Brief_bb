@@ -168,17 +168,17 @@
 
 .boite-tarifs {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); 
-  gap: 100px; 
+  grid-template-columns: 1fr; 
+  gap: 10px; 
   place-items: center; 
   text-align: center; 
 }
 
 #box1-tarifs {
-  width: 550px;
+  width: 700px;
   height: 1000px;
   background-color: #FFD1DC;
-  grid-column: 1 / 2; 
+  grid-column: 1 / 1; 
   color: #333;
   border-radius: 20px;
   border: 2px solid #333;
@@ -193,12 +193,19 @@
   }
 }
 
+.boite-tarifs2 {
+  display: grid;
+  grid-template-columns: 1fr; 
+  gap: 10px; 
+  place-items: center; 
+  text-align: center; 
+}
 
 #box2-tarifs {
-  width: 550px;
+  width: 700px;
   height: 1000px;
   background-color: #FFD1DC;
-  grid-column: 2 / 3; 
+  grid-column: 1 / 1; 
   color: #333;
   border-radius: 20px;
   border: 2px solid #333;
@@ -211,13 +218,21 @@
     object-fit: cover;
     border-radius: 20px;
   }
+}
+
+.boite-tarifs3 {
+  display: grid;
+  grid-template-columns: 1fr; 
+  gap: 10px; 
+  place-items: center; 
+  text-align: center; 
 }
 
 #box3-tarifs {
-  width: 550px;
+  width: 700px;
   height: 1000px;
   background-color: #FFD1DC;
-  grid-column: 3 / 4; 
+  grid-column: 1 / 1; 
   color: #333;
   border-radius: 20px;
   border: 2px solid #333;
