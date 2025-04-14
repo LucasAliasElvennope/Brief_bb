@@ -302,8 +302,8 @@ body {
 }
 
 #box1-tarifs {
-  width: 700px;
-  height: 900px;
+  width: 550px;
+  height: 1000px;
   background-color: #FFD1DC;
   grid-column: 1/2;
   color: #333;
@@ -320,8 +320,8 @@ body {
 }
 
 #box2-tarifs {
-  width: 700px;
-  height: 900px;
+  width: 550px;
+  height: 1000px;
   background-color: #FFD1DC;
   grid-column: 2/3;
   color: #333;
@@ -338,8 +338,8 @@ body {
 }
 
 #box3-tarifs {
-  width: 700px;
-  height: 900px;
+  width: 550px;
+  height: 1000px;
   background-color: #FFD1DC;
   grid-column: 3/4;
   color: #333;
