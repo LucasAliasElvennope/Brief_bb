@@ -33,3 +33,16 @@
   font-family: "M PLUS Rounded 1c", sans-serif;
   font-weight: bolder;
 }
+
+#title_gallerie2 {
+  display: flex;
+  justify-content: center; // aligne horizontalement le contenu
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #000000;
+  margin: 40px auto;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
