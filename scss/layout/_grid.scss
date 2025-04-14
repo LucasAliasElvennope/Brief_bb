@@ -156,7 +156,7 @@
   }
 }
 
-#boite-tarifs {
+.boite-tarifs {
   display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
@@ -170,6 +170,36 @@
   height: 320px;
   background-color: #FFD1DC;
   grid-column: 1/2;
+  color: #333;
+  border-radius: 20px;
+  border: 2px solid #333;
+  padding: 20px;
+  &:hover {
+    background-color: #C8BFE7;
+    color: #ffffff;
+  }
+}
+
+#box2-tarifs {
+  width: 500px;
+  height: 320px;
+  background-color: #FFD1DC;
+  grid-column: 2/3;
+  color: #333;
+  border-radius: 20px;
+  border: 2px solid #333;
+  padding: 20px;
+  &:hover {
+    background-color: #C8BFE7;
+    color: #ffffff;
+  }
+}
+
+#box3-tarifs {
+  width: 500px;
+  height: 320px;
+  background-color: #FFD1DC;
+  grid-column: 3/4;
   color: #333;
   border-radius: 20px;
   border: 2px solid #333;
