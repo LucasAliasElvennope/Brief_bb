@@ -284,27 +284,33 @@ body {
 
 .boite-tarifs {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Crée 3 colonnes égales */
-  gap: 100px; /* Espacement entre les boîtes */
-  place-items: center; /* Centre les éléments dans chaque cellule */
-  text-align: center; /* Centre le texte dans chaque boîte */
+  grid-template-columns: repeat(3, 1fr);
+  gap: 100px;
+  place-items: center;
+  text-align: center;
 }
 
 #box1-tarifs {
   width: 500px;
-  height: 320px;
+  height: 520px;
   background-color: #FFD1DC;
-  grid-column: 1/2; /* Place la boîte dans la première colonne */
+  grid-column: 1/2;
   color: #333;
   border-radius: 20px;
   border: 2px solid #333;
   padding: 20px;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
+#box1-tarifs img {
+  width: 90%;
+  height: 70%;
+  object-fit: cover;
+  border-radius: 20px;
+}
 
 #box2-tarifs {
   width: 500px;
-  height: 320px;
+  height: 520px;
   background-color: #FFD1DC;
   grid-column: 2/3; /* Place la boîte dans la deuxième colonne */
   color: #333;
@@ -313,10 +319,16 @@ body {
   padding: 20px;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
+#box2-tarifs img {
+  width: 90%;
+  height: 70%;
+  object-fit: cover;
+  border-radius: 20px;
+}
 
 #box3-tarifs {
   width: 500px;
-  height: 320px;
+  height: 520px;
   background-color: #FFD1DC;
   grid-column: 3/4; /* Place la boîte dans la troisième colonne */
   color: #333;
@@ -324,6 +336,12 @@ body {
   border: 2px solid #333;
   padding: 20px;
   transition: background-color 0.3s ease, color 0.3s ease;
+}
+#box3-tarifs img {
+  width: 90%;
+  height: 70%;
+  object-fit: cover;
+  border-radius: 20px;
 }
 
 #enceinte {
