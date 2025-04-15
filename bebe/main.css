@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap");
 body {
   font-family: "M PLUS Rounded 1c", sans-serif;
@@ -437,6 +438,15 @@ main {
   height: 500px;
   border: 1px solid #333;
   border-radius: 20px;
+  background-color: #f0f0f0; /* Ajout d'un fond de remplacement clair au cas où l'image échoue */
+  object-fit: cover; /* Pour s'assurer que l'image occupe bien l'espace sans déformation */
+}
+
+#entrance {
+  background-color: #f0f0f0; /* Ajout d'un fond de remplacement pour l'image */
+  width: 50%;
+  height: auto;
+  object-fit: cover; /* Gérer le redimensionnement de l'image */
 }
 
 #boite1_apropos {
@@ -488,10 +498,6 @@ main {
 }
 .masonry img:hover {
   transform: scale(1.05);
-}
-
-#contact_body {
-  background-color: #fdfdfd;
 }
 
 #contact {
