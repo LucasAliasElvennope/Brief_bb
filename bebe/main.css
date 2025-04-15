@@ -490,6 +490,75 @@ main {
   transform: scale(1.05);
 }
 
+#contact {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+  background-color: #fdfdfd;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+  background-color: #fdfdfd;
+}
+form fieldset {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+form fieldset legend {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+form fieldset label {
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+}
+form fieldset input[type=text],
+form fieldset input[type=email],
+form fieldset input[type=tel],
+form fieldset select,
+form fieldset textarea {
+  padding: 0.75rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  width: 100%;
+}
+form fieldset textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+form fieldset input[type=radio] {
+  margin-right: 0.5rem;
+}
+form fieldset .radio-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+form button {
+  align-self: flex-start;
+  padding: 0.75rem 1.5rem;
+  background-color: #f3bebe;
+  color: #000;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+form button:hover {
+  background-color: #e89ea1;
+}
+
 #container_tarifs {
   display: grid;
   grid-template-columns: 1fr;
