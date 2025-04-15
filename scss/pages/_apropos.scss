@@ -1,28 +1,39 @@
 #boite1_apropos {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 10px;
-    place-items: center;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    img {
-      width: 500px;
-      height: 500px;
-      border-radius: 10px;
+    gap: 2rem;
+    align-items: start;
+    padding: 2rem;
+  
+    section {
+      text-align: left;
+  
+      p {
+        margin-bottom: 1.5rem;
+      }
     }
+  }
 
-    .text {
+  .img_apropos {
+    justify-self: center;
+    align-self: center;
+    width: 700px;
+    height: 700px;
+    border-radius: 10px;
+  }
+
+    .text, .text1, .text2 {
       font-family: 'M PLUS Rounded 1c', sans-serif;
       font-size: 16px;
       line-height: 2.0;
       width: 500px;
-      height: 250px;
+      height: 300px;
       border-radius: 10px;
-      align-items: center;
-      justify-content: left;
+      align-items: fl;
+      justify-content: flex-start;
       text-align: left;
+      border: 1px solid #333;
+      padding: 10px;
     }
-  }
 
 

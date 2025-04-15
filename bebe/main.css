@@ -442,27 +442,37 @@ main {
 #boite1_apropos {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 10px;
-  place-items: center;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+  gap: 2rem;
+  align-items: start;
+  padding: 2rem;
 }
-#boite1_apropos img {
-  width: 500px;
-  height: 500px;
+#boite1_apropos section {
+  text-align: left;
+}
+#boite1_apropos section p {
+  margin-bottom: 1.5rem;
+}
+
+.img_apropos {
+  justify-self: center;
+  align-self: center;
+  width: 700px;
+  height: 700px;
   border-radius: 10px;
 }
-#boite1_apropos .text {
+
+.text, .text1, .text2 {
   font-family: "M PLUS Rounded 1c", sans-serif;
   font-size: 16px;
   line-height: 2;
   width: 500px;
-  height: 250px;
+  height: 300px;
   border-radius: 10px;
-  align-items: center;
-  justify-content: left;
+  align-items: fl;
+  justify-content: flex-start;
   text-align: left;
+  border: 1px solid #333;
+  padding: 10px;
 }
 
 .masonry {
