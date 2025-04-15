@@ -454,9 +454,15 @@ main {
   border-radius: 10px;
 }
 #boite1_apropos .text {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-size: 16px;
+  line-height: 2;
   width: 500px;
   height: 250px;
   border-radius: 10px;
+  align-items: center;
+  justify-content: left;
+  text-align: left;
 }
 
 .masonry {
