@@ -350,6 +350,23 @@ body {
   border-radius: 20px;
 }
 
+#boite1_apropos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+  place-items: center;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+#boite1_apropos img {
+  width: 600px;
+  height: 600px;
+  border: 2px solid #333;
+  border-radius: 20px;
+}
+
 #enceinte {
   width: 1000px;
   height: 500px;
