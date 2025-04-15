@@ -490,6 +490,10 @@ main {
   transform: scale(1.05);
 }
 
+#contact_body {
+  background-color: #fdfdfd;
+}
+
 #contact {
   align-items: center;
   display: flex;
