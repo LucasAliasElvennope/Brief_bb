@@ -1,6 +1,6 @@
 #title {
   display: flex;
-  justify-content: center; // aligne horizontalement le contenu
+  justify-content: center;
   text-align: center;
   font-size: 2.5rem;
   font-weight: bold;
@@ -12,7 +12,7 @@
 
 #title_studio {
   display: flex;
-  justify-content: center; // aligne horizontalement le contenu
+  justify-content: center;
   text-align: center;
   font-size: 2.5rem;
   font-weight: bold;
@@ -24,7 +24,7 @@
 
 #title_gallerie {
   display: flex;
-  justify-content: center; // aligne horizontalement le contenu
+  justify-content: center;
   text-align: center;
   font-weight: bold;
   font-size: 2.5rem;
@@ -36,7 +36,31 @@
 
 #title_gallerie2 {
   display: flex;
-  justify-content: center; // aligne horizontalement le contenu
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+  color: #000000;
+  margin: 40px auto;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #000000;
+  margin: 40px auto;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: bolder;
+}
+
+.title_jr {
+  display: flex;
+  justify-content: center;
   text-align: center;
   font-weight: bold;
   color: #000000;

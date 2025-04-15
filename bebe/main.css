@@ -8,6 +8,13 @@ body {
   font-weight: bolder;
 }
 
+.price {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  color: #D6456C;
+}
+
 #header {
   width: 100%;
   background-color: #fddaf8;
@@ -116,6 +123,30 @@ body {
 }
 
 #title_gallerie2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+  color: #000000;
+  margin: 40px auto;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #000000;
+  margin: 40px auto;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: bolder;
+}
+
+.title_jr {
   display: flex;
   justify-content: center;
   text-align: center;
@@ -427,6 +458,11 @@ body {
 html, body {
   width: 100%;
   height: 100%;
+}
+
+main {
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 /*# sourceMappingURL=main.css.map */
