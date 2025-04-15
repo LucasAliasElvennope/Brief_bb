@@ -1,1 +1,23 @@
+#boite1_apropos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    place-items: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    img {
+      width: 500px;
+      height: 500px;
+      border: 2px solid #333;
+      border-radius: 20px;
+    }
+
+    .text {
+      width: 500px;
+      height: 250px;
+      border-radius: 20px;
+    }
+  }
+
 
