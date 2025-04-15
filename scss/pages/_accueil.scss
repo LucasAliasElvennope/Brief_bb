@@ -8,6 +8,16 @@
     text-align: center;
   }
 
+  #boite1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    place-items: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
   #box {
     display: grid;
     grid-template-columns: 1fr;
@@ -78,4 +88,26 @@
     grid-column: 3/4;
     color: #333;
     border-radius: 20px;
+  }
+
+  #espace {
+    grid-column: 1/1;
+    height: 100px;
+  }
+  
+  #espace1 {
+    grid-column: 1/1;
+    height: 70px;
+  }
+
+  #espace2 {
+    grid-column: 1/1;
+    height: 70px;
+  }
+.imgBox {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border: 2px solid #333;
+  border-radius: 50%;
+  object-fit: cover;
   }
