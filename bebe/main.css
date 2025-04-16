@@ -429,6 +429,15 @@ main {
   object-fit: cover;
 }
 
+@media screen and (max-width: 1024px) {
+  #boite2 {
+    grid-template-columns: 1fr 1fr;
+  }
+  #box1, #box2, #box3 {
+    width: 90%;
+    height: auto;
+  }
+}
 #box_studio {
   display: grid;
   grid-template-columns: 1fr;
