@@ -1,4 +1,5 @@
 #boite {
+  border: none  ;
     display: grid;
     grid-template-columns: 1fr;
     gap: 10px;
@@ -7,18 +8,25 @@
     justify-content: center;
     text-align: center;
   }
-
-  #boite1 {
+#boite1 {
+    border: none;
     display: grid;
     grid-template-columns: 1fr;
-    gap: 10px;
+    gap: 20px;
     place-items: center;
-    align-items: center;
+    align-items: stretch;
     justify-content: center;
     text-align: center;
+    height: auto;
+  
+    p {
+      height: auto;
+      border: none;
+    }
   }
 
   #box {
+    border: none;
     display: grid;
     grid-template-columns: 1fr;
     gap: 10px;
@@ -29,6 +37,7 @@
   }
 
   #container {
+    border: none;
     display: grid;
     grid-template-columns: 1fr;
     gap: 10px;
@@ -39,6 +48,7 @@
   }
 
   #container1 {
+    border: none;
     display: grid;
     grid-template-columns: 1fr;
     gap: 10px;
@@ -49,6 +59,7 @@
   }
 
   #boite2 {
+    border: none;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
@@ -57,13 +68,15 @@
     align-items: center;
     
     article {
-        background-color: #FFD1DC;
-        border: 2px solid #333;
-        border-radius: 20px;
+      border: none;
+      background-color: #FFD1DC;
+      border: 2px solid #333;
+      border-radius: 20px;
     }
   }
   
   #box1 {
+    border: none;
     width: 500px;
     height: 320px;
     background-color: #A3D5FF;
@@ -73,6 +86,7 @@
   }
   
   #box2 {
+    border: none;
     width: 500px;
     height: 320px;
     background-color: #A3D5FF;
@@ -82,6 +96,7 @@
   }
   
   #box3 {
+    border: none;
     width: 500px;
     height: 320px;
     background-color: #A3D5FF;
@@ -91,23 +106,28 @@
   }
 
   #espace {
+    border: none;
     grid-column: 1/1;
     height: 100px;
   }
   
   #espace1 {
+    border: none;
     grid-column: 1/1;
     height: 70px;
   }
 
   #espace2 {
+    border: none;
     grid-column: 1/1;
     height: 70px;
   }
-.imgBox {
-  margin-bottom: 10px;
-  margin-top: 10px;
+
+  #imgBox {
+    margin-bottom: 10px;
+    margin-top: 10px;
   border: 2px solid #333;
   border-radius: 50%;
   object-fit: cover;
   }
+  

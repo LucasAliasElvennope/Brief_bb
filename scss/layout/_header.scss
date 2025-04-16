@@ -1,4 +1,6 @@
-#header {
+#header,
+#header_studio,
+#header_tarifs {
   width: 100%;
   background-color: #fddaf8;
   display: flex;
@@ -7,64 +9,3 @@
   flex-direction: column;
   text-align: center;
   padding: 30px;
-}
-
-#header_studio {
-  background-color: #fddaf8;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
-  padding: 30px;
-}
-
-#logo_studio {
-  display: flex;
-  align-self: center;
-  max-width: 250px;
-  height: auto
-}
-
-#logo {
-  display: flex;
-  align-self: center;
-  max-width: 250px;
-  height: auto
-}
-
-#nav {
-    display: flex;
-    gap: 200px;
-    justify-content: center;
-    align-items: center;
-}
-
-#nav_studio {
-    display: flex;
-    gap: 200px;
-    justify-content: center;
-    align-items: center;
-}
-
-.btn {
-    background-color: #D8A7B1;
-    color: white;
-    border: 1px solid #D8A7B1;
-    border-radius: 10px;
-    padding: 10px 20px;
-    &:hover {
-        background-color: #C8BFE7;
-        color: #ffffff;
-    }
-}
-
-#header_tarifs {
-  background-color: #ffccf7;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
-  padding: 30px;
-}
