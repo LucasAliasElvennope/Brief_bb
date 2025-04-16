@@ -22,3 +22,29 @@
   max-width: 250px;
   height: auto;
 }
+
+#nav,
+#nav_studio {
+  display: flex;
+  gap: 200px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+.btn {
+  background-color: #D8A7B1;
+  color: white;
+  border: 1px solid #D8A7B1;
+  border-radius: 10px;
+  padding: 10px 20px;
+  text-align: center;
+  white-space: nowrap;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #C8BFE7;
+    color: #ffffff;
+  }
+}
