@@ -560,36 +560,59 @@ main {
   gap: 2rem;
   align-items: start;
   padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
 }
+
+/* ==== SECTIONS ==== */
 #boite1_apropos section {
   text-align: left;
 }
-#boite1_apropos section p {
-  margin-bottom: 1.5rem;
-}
 
+/* ==== IMAGE ==== */
 .img_apropos {
   justify-self: center;
   align-self: center;
-  width: 700px;
-  height: 700px;
+  width: 100%; /* Ajuste pour être plus flexible */
+  max-width: 700px;
+  height: auto;
   border-radius: 10px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
 }
 
+/* ==== TEXTE ==== */
 .text, .text1, .text2 {
   font-family: "M PLUS Rounded 1c", sans-serif;
-  font-size: 16px;
-  line-height: 2;
-  width: 500px;
-  height: 300px;
+  font-size: 1rem;
+  line-height: 1.8;
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  padding: 20px;
   border-radius: 10px;
-  align-items: fl;
-  justify-content: flex-start;
   text-align: left;
-  border: 1px solid #333;
-  padding: 10px;
+  border: 1px solid #f3c1ff;
+  background-color: #f3c1ff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
 }
 
+/* ==== RESPONSIVE DESIGN ==== */
+@media screen and (max-width: 768px) {
+  #boite1_apropos {
+    grid-template-columns: 1fr; /* Passer en une seule colonne pour mobile */
+    text-align: center;
+  }
+  .text, .text1, .text2 {
+    width: 90%;
+    max-width: none;
+    font-size: 0.9rem;
+  }
+  .img_apropos {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+  }
+}
 /* ==== TITRES ==== */
 #title_gallerie {
   font-size: 2.5rem;
