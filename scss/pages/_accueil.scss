@@ -142,3 +142,18 @@
     }
   }
   
+  @media screen and (max-width: 768px) {
+    #boite2 {
+      grid-template-columns: 1fr;
+    }
+  
+    #box1, #box2, #box3 {
+      width: 90%;
+      height: auto;
+    }
+  
+    #imgBox {
+      width: 150px;
+      height: 150px;
+    }
+  }
