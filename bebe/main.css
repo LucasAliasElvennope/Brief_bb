@@ -330,21 +330,14 @@ main {
   border: none;
 }
 
-#boite2 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 20px;
-  place-items: center;
-  text-align: center;
-  border: none;
-}
-#boite2 article {
-  background-color: #FFD1DC;
-  border: 2px solid #333;
-  border-radius: 20px;
-  padding: 20px;
+#boite2 article img {
   width: 100%;
-  max-width: 500px;
+  height: auto;
+  max-width: 100%;
+  border-radius: 15px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
 }
 
 #box1, #box2, #box3 {
