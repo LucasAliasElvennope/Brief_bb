@@ -297,30 +297,29 @@ main {
   display: block;
 }
 
-#boite {
-  border: none;
+#boite,
+#box,
+#container,
+#container1 {
   display: grid;
   grid-template-columns: 1fr;
   gap: 10px;
   place-items: center;
-  align-items: center;
-  justify-content: center;
   text-align: center;
+  border: none;
 }
 
 #boite1 {
-  border: none;
   display: grid;
   grid-template-columns: 1fr;
   gap: 20px;
   place-items: center;
-  align-items: stretch;
-  justify-content: center;
+  justify-items: center;
   text-align: center;
   height: auto;
+  border: none;
 }
 #boite1 p {
-  border: none;
   width: 100%;
   max-width: 800px;
   margin: 0 auto;
@@ -328,111 +327,7 @@ main {
   font-weight: bolder;
   text-align: left;
   line-height: 1.6;
-}
-
-#box {
   border: none;
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 10px;
-  place-items: center;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-
-#container {
-  border: none;
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 10px;
-  place-items: center;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-
-#container1 {
-  border: none;
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 10px;
-  place-items: center;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-
-#boite2 {
-  border: none;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 20px;
-  place-items: center;
-  text-align: center;
-  align-items: center;
-}
-#boite2 article {
-  border: none;
-  background-color: #FFD1DC;
-  border: 2px solid #333;
-  border-radius: 20px;
-}
-
-#box1 {
-  border: none;
-  width: 500px;
-  height: 320px;
-  background-color: #A3D5FF;
-  grid-column: 1/2;
-  color: #333;
-  border-radius: 20px;
-}
-
-#box2 {
-  border: none;
-  width: 500px;
-  height: 320px;
-  background-color: #A3D5FF;
-  grid-column: 2/3;
-  color: #333;
-  border-radius: 20px;
-}
-
-#box3 {
-  border: none;
-  width: 500px;
-  height: 320px;
-  background-color: #A3D5FF;
-  grid-column: 3/4;
-  color: #333;
-  border-radius: 20px;
-}
-
-#espace {
-  border: none;
-  grid-column: 1/1;
-  height: 100px;
-}
-
-#espace1 {
-  border: none;
-  grid-column: 1/1;
-  height: 70px;
-}
-
-#espace2 {
-  border: none;
-  grid-column: 1/1;
-  height: 70px;
-}
-
-#imgBox {
-  margin-bottom: 10px;
-  margin-top: 10px;
-  border: 2px solid #333;
-  border-radius: 50%;
-  object-fit: cover;
 }
 
 #box_studio {
