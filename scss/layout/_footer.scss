@@ -1,19 +1,24 @@
-#footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 30px;
-    background-color: #fddaf8;
-    color: #333;
+#footer,
+#footer_studio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+  background-color: #fddaf8;
+  color: #333;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
-#footer_studio {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 30px;
-    background-color: #fddaf8;
-    color: #333;
+/* Responsive footer pour petits écrans */
+@media screen and (max-width: 768px) {
+  #footer,
+  #footer_studio {
+    flex-direction: column; /* Met les éléments les uns au-dessus des autres */
+    padding: 20px;
+    gap: 15px;
+  }
 }
