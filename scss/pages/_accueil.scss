@@ -54,3 +54,175 @@
   justify-content: center;
   text-align: center;
 }
+
+#container1 {
+  border: none;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  place-items: center;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#boite2 {
+  border: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  place-items: center;
+  text-align: center;
+  align-items: center;
+
+  article {
+    border: none;
+    background-color: #FFD1DC;
+    border: 2px solid #333;
+    border-radius: 20px;
+  }
+}
+
+#box1 {
+  border: none;
+  width: 500px;
+  height: 320px;
+  background-color: #A3D5FF;
+  grid-column: 1/2;
+  color: #333;
+  border-radius: 20px;
+}
+
+#box2 {
+  border: none;
+  width: 500px;
+  height: 320px;
+  background-color: #A3D5FF;
+  grid-column: 2/3;
+  color: #333;
+  border-radius: 20px;
+}
+
+#box3 {
+  border: none;
+  width: 500px;
+  height: 320px;
+  background-color: #A3D5FF;
+  grid-column: 3/4;
+  color: #333;
+  border-radius: 20px;
+}
+
+#espace {
+  border: none;
+  grid-column: 1/1;
+  height: 100px;
+}
+
+#espace1 {
+  border: none;
+  grid-column: 1/1;
+  height: 70px;
+}
+
+#espace2 {
+  border: none;
+  grid-column: 1/1;
+  height: 70px;
+}
+
+#imgBox {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border: 2px solid #333;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Ajout pour centrer l'image avec l'id 'enceinte' dans l'article avec l'id 'box' */
+#box #enceinte {
+  width: 100%;
+  height: auto;
+  object-fit: cover; /* Maintient le ratio de l'image sans la déformer */
+  border-radius: 15px; /* Optionnel, pour adoucir les bords */
+  display: block; /* Permet de centrer l'image si elle est en bloc */
+  margin: 0 auto; /* Centre l'image */
+}
+
+/* Styles généraux déjà fournis */
+
+/* Pour les petits écrans (smartphones) */
+@media (max-width: 768px) {
+  #boite, #boite1, #box, #container, #container1 {
+    grid-template-columns: 1fr; /* Un seul élément par ligne */
+    gap: 20px;
+  }
+
+  #boite2 {
+    grid-template-columns: 1fr; /* Sur un seul bloc pour les petits écrans */
+  }
+
+  #box1, #box2, #box3 {
+    width: 100%; /* Les boîtes prennent toute la largeur */
+    height: auto; /* Laissez l'aspect ratio s'ajuster */
+    grid-column: 1/2; /* Chaque boîte occupe toute la largeur */
+    max-width: 100%; /* Ne pas dépasser la largeur du conteneur */
+  }
+
+  #enceinte {
+    width: 100%; /* Image prend toute la largeur de son conteneur */
+    height: auto; /* Garder l'aspect ratio */
+  }
+
+  #imgBox {
+    width: 80%; /* Réduire la taille de l'image dans les boîtes */
+    margin: 0 auto;
+  }
+
+  #header {
+    padding: 20px; /* Moins de padding pour les petits écrans */
+  }
+
+  #nav {
+    flex-direction: column; /* Les éléments de la navigation seront en colonne */
+    gap: 10px;
+  }
+}
+
+/* Pour les tablettes en paysage ou autres écrans moyens */
+@media (max-width: 1024px) {
+  #boite, #boite1, #box, #container, #container1 {
+    grid-template-columns: 1fr; /* Un seul élément par ligne sur les petits écrans */
+  }
+
+  #boite2 {
+    grid-template-columns: 1fr 1fr; /* Deux éléments par ligne sur des écrans moyens */
+  }
+
+  #box1, #box2, #box3 {
+    width: 45%; /* Les boîtes prennent moins de largeur */
+    height: auto;
+    grid-column: span 1; /* Chaque boîte prend sa propre ligne */
+  }
+
+  #imgBox {
+    width: 100%; /* Assurez-vous que l'image prend la largeur nécessaire */
+    height: auto;
+  }
+}
+
+/* Pour les écrans plus grands (bureau) */
+@media (min-width: 1025px) {
+  #boite, #boite1, #box, #container, #container1 {
+    grid-template-columns: 1fr 1fr 1fr; /* Trois éléments par ligne */
+  }
+
+  #boite2 {
+    grid-template-columns: 1fr 1fr 1fr; /* Trois éléments par ligne pour la boîte */
+  }
+
+  #box1, #box2, #box3 {
+    width: 30%; /* Les boîtes ont 30% de la largeur du conteneur */
+    height: auto;
+  }
+}
