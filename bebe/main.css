@@ -474,6 +474,17 @@ main {
   justify-content: center;
   text-align: center;
 }
+#boite1_studio p {
+  text-align: center;
+  border: none;
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: left;
+  line-height: 1.6;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: 500;
+}
 
 #boite2_studio {
   display: grid;
