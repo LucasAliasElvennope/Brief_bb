@@ -20,8 +20,14 @@
     height: auto;
   
     p {
-      height: auto;
       border: none;
+      width: 100%;
+      max-width: 800px;
+      margin: 0 auto;
+      font-family: 'M PLUS Rounded 1c', sans-serif;
+      font-weight: bolder;
+      text-align: left;
+      line-height: 1.6;
     }
   }
 
@@ -131,29 +137,3 @@
   object-fit: cover;
   }
   
-  @media screen and (max-width: 1024px) {
-    #boite2 {
-      grid-template-columns: 1fr 1fr;
-    }
-  
-    #box1, #box2, #box3 {
-      width: 90%;
-      height: auto;
-    }
-  }
-  
-  @media screen and (max-width: 768px) {
-    #boite2 {
-      grid-template-columns: 1fr;
-    }
-  
-    #box1, #box2, #box3 {
-      width: 90%;
-      height: auto;
-    }
-  
-    #imgBox {
-      width: 150px;
-      height: 150px;
-    }
-  }
