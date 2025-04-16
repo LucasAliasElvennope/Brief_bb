@@ -330,6 +330,46 @@ main {
   border: none;
 }
 
+#boite2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  place-items: center;
+  text-align: center;
+  border: none;
+}
+#boite2 article {
+  background-color: #FFD1DC;
+  border: 2px solid #333;
+  border-radius: 20px;
+  padding: 20px;
+  width: 100%;
+  max-width: 500px;
+}
+
+#box1, #box2, #box3 {
+  width: 100%;
+  max-width: 500px;
+  height: 320px;
+  background-color: #A3D5FF;
+  color: #333;
+  border-radius: 20px;
+  border: none;
+}
+
+#espace, #espace1, #espace2 {
+  grid-column: 1/-1;
+  height: 70px;
+  border: none;
+}
+
+#imgBox {
+  margin: 10px 0;
+  border: 2px solid #333;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
 #box_studio {
   display: grid;
   grid-template-columns: 1fr;
