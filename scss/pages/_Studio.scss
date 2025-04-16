@@ -1,57 +1,101 @@
 #box_studio {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 10px;
   place-items: center;
-  align-items: center;
-  justify-content: center;
   text-align: center;
+  padding: 20px;
 }
 
+/* ==== IMAGE DE L'ENTRÉE ==== */
+#entrance {
+  background-color: #f0f0f0;
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+  border-radius: 20px;
+  object-fit: cover;
+  display: block;
+}
+
+/* ==== TEXTE PRINCIPAL ==== */
 #boite1_studio {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 10px;
   place-items: center;
-  align-items: center;
-  justify-content: center;
+  padding: 20px;
   text-align: center;
-
-  p {
-    text-align: center;
-    border: none;
-    max-width: 900px;
-    width: 100%;
-    margin: 0 auto;
-    text-align: left;
-    line-height: 1.6;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
-    font-weight: 500;
-  }
 }
 
+#boite1_studio p {
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: left;
+  line-height: 1.6;
+  font-weight: 500;
+  border: none;
+  background: transparent;
+  padding: 10px;
+}
+
+/* ==== BLOCS IMAGES INT/EXT ==== */
 #boite2_studio {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 5px;
-  place-items: center;
-  align-items: center;
+  gap: 20px;
   justify-content: center;
-  text-align: center;
+  align-items: center;
+  padding: 20px;
 }
 
-#int, #ext {
-  width: 700px;
-  height: 500px;
+#int,
+#ext {
+  width: 100%;
+  max-width: 700px;
+  aspect-ratio: 7 / 5;
   border: 1px solid #333;
   border-radius: 20px;
-  background-color: #f0f0f0; /* Ajout d'un fond de remplacement clair au cas où l'image échoue */
-  object-fit: cover; /* Pour s'assurer que l'image occupe bien l'espace sans déformation */
+  background-color: #f0f0f0;
+  object-fit: cover;
 }
 
-#entrance {
-  background-color: #f0f0f0; /* Ajout d'un fond de remplacement pour l'image */
-  width: 50%; 
-  height: auto;
-  object-fit: cover; /* Gérer le redimensionnement de l'image */
+/* ==== ESPACES ==== */
+#espace,
+#espace1 {
+  height: 60px;
+}
+
+/* ==== FOOTER ==== */
+#footer_studio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+  background-color: #fddaf8;
+  color: #333;
+  flex-direction: column;
+}
+
+#footer_studio p {
+  max-width: 900px;
+  width: 90%;
+  line-height: 1.5;
+}
+
+/* ==== RESPONSIVE ==== */
+@media screen and (max-width: 768px) {
+  #boite2_studio {
+    grid-template-columns: 1fr;
+  }
+
+  #int,
+  #ext,
+  #entrance {
+    width: 90%;
+  }
+
+  #boite1_studio p {
+    text-align: center;
+  }
 }
