@@ -49,4 +49,36 @@
     background-color: #C8BFE7;
     color: #ffffff;
   }
-}
+} 
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  #nav,
+  #nav_studio {
+    flex-direction: column;
+    gap: 20px; /* Espacement vertical pour les petits écrans */
+    justify-content: flex-start;
+    align-items: flex-start; /* Alignement à gauche */
+  }
+
+  #logo,
+  #logo_studio {
+    max-width: 180px;
+  }
+
+  .btn {
+    width: 100%;
+    max-width: 260px;
+    padding: 10px;
+    font-size: 1rem;
+    text-align: left; /* Aligner le texte à gauche */
+  }
+
+  /* Menu burger */
+  #burger-menu {
+    display: block; /* Afficher le menu burger */
+    cursor: pointer;
+    position: absolute;
+    top: 30px; /* Pour avoir un peu d'espace du haut */
+    right: 20px; /* Positionner à droite */
+  }
