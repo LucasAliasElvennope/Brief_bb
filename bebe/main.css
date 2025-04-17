@@ -61,6 +61,7 @@ body {
   text-align: center;
   white-space: nowrap;
   transition: background-color 0.3s ease;
+  text-decoration: none;
 }
 .btn:hover {
   background-color: #C8BFE7;
@@ -303,7 +304,7 @@ main {
 
 /* Styles généraux */
 body {
-  background-color: #fddaf8;
+  background-color: #ffeafc;
 }
 
 /* Le container principal */
