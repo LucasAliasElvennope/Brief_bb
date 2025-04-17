@@ -5,7 +5,7 @@
 #header_studio,
 #header_tarifs {
   width: 100%;
-  background-color: $rose-bebe;
+  background-color: $rose-poudre;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -38,9 +38,9 @@
 .btn {
   justify-content: center;
   align-items: center;
-  background-color: #FFD1DC;
+  background-color: $rose-bebe;
   color: white;
-  border: 1px solid #D8A7B1;
+  border: 1px solid $rose-poudre;
   border-radius: 10px;
   padding: 10px 20px;
   text-align: center;
@@ -49,8 +49,8 @@
   text-decoration: none;
 
   &:hover {
-    background-color: #C8BFE7;
-    color: #ffffff;
+    background-color: $rose-bebe;
+    color: #000000;
   }
 } 
 

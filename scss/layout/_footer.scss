@@ -2,22 +2,20 @@
 
 #footer,
 #footer_studio {
-  margin-top: auto;
+  margin-top: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   padding: 30px;
-  background-color: $rose-bebe;
+  background-color: $rose-poudre;
   color: #333;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 20px;
-  
   p {
     font-family: 'M PLUS Rounded 1c', sans-serif;
     font-size: large;
-    background-color: $rose-bebe;
+    background-color: $rose-poudre;
   }
 }
 

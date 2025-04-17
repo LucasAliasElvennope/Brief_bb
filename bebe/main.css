@@ -43,7 +43,7 @@ body {
 #header_studio,
 #header_tarifs {
   width: 100%;
-  background-color: #FFB0C0;
+  background-color: #F7D0D5;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -76,9 +76,9 @@ body {
 .btn {
   justify-content: center;
   align-items: center;
-  background-color: #FFD1DC;
+  background-color: #FFB0C0;
   color: white;
-  border: 1px solid #D8A7B1;
+  border: 1px solid #F7D0D5;
   border-radius: 10px;
   padding: 10px 20px;
   text-align: center;
@@ -87,8 +87,8 @@ body {
   text-decoration: none;
 }
 .btn:hover {
-  background-color: #C8BFE7;
-  color: #ffffff;
+  background-color: #FFB0C0;
+  color: #000000;
 }
 
 /* Responsive */
@@ -142,23 +142,22 @@ body {
 }
 #footer,
 #footer_studio {
-  margin-top: auto;
+  margin-top: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   padding: 30px;
-  background-color: #FFB0C0;
+  background-color: #F7D0D5;
   color: #333;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 20px;
 }
 #footer p,
 #footer_studio p {
   font-family: "M PLUS Rounded 1c", sans-serif;
   font-size: large;
-  background-color: #FFB0C0;
+  background-color: #F7D0D5;
 }
 
 /* Responsive footer pour petits écrans */
@@ -369,7 +368,7 @@ main {
   background-color: #F8E8D2;
   border: none;
   width: 100%;
-  max-width: 800px;
+  max-width: 900px;
   margin: 0 auto;
   font-family: "M PLUS Rounded 1c", sans-serif;
   font-weight: bolder;
@@ -424,7 +423,7 @@ main {
   width: 100%;
   max-width: 550px; /* Largeur maximale des box */
   max-height: 600px;
-  background-color: #FCEEF0;
+  background-color: #F7D0D5;
   border: 1px solid #333;
   color: #333;
   border-radius: 20px;
@@ -739,7 +738,7 @@ main {
   align-items: center;
   gap: 2rem;
   padding: 2rem;
-  background-color: #f5e0f2;
+  background-color: #F8E8D2;
 }
 
 /* Titre Contact */
@@ -829,7 +828,7 @@ form input[type=radio] {
 form button {
   align-self: flex-start;
   padding: 0.75rem 1.5rem;
-  background-color: #f3bebe;
+  background-color: #FFB0C0;
   color: #000;
   font-size: 1rem;
   font-family: "M PLUS Rounded 1c", sans-serif;

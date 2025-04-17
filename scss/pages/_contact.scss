@@ -1,3 +1,4 @@
+@use '../abstracts/variables' as *;
 
 #contact {
   display: flex;
@@ -5,7 +6,7 @@
   align-items: center;
   gap: 2rem;
   padding: 2rem;
-  background-color: #f5e0f2;
+  background-color: $fond-principal;
 }
 
 /* Titre Contact */
@@ -95,7 +96,7 @@ form input[type="radio"] {
 form button {
   align-self: flex-start;
   padding: 0.75rem 1.5rem;
-  background-color: #f3bebe;
+  background-color: $rose-bebe;
   color: #000;
   font-size: 1rem;
   font-family: 'M PLUS Rounded 1c', sans-serif;

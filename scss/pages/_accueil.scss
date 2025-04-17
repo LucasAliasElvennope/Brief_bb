@@ -40,7 +40,7 @@ main {
   background-color: $fond-principal;
   border: none;
   width: 100%;
-  max-width: 800px;
+  max-width: 900px;
   margin: 0 auto;
   font-family: 'M PLUS Rounded 1c', sans-serif;
   font-weight: bolder;
@@ -95,7 +95,7 @@ main {
   width: 100%;
   max-width: 550px; /* Largeur maximale des box */
   max-height: 600px;
-  background-color: #FCEEF0;
+  background-color: $rose-poudre;
   border: 1px solid #333;
   color: #333;
   border-radius: 20px;
