@@ -671,7 +671,7 @@ body {
 /* ==== GALERIE MASONRY ==== */
 .masonry {
   column-count: 4;
-  column-gap: 15px;
+  column-gap: 20px;
   padding: 20px;
   max-width: 1200px;
   margin: 0 auto;
@@ -734,6 +734,17 @@ body {
   line-height: 1.6;
 }
 
+@media screen and (min-width: 1025px) {
+  .masonry {
+    column-count: 5; /* Augmente le nombre de colonnes */
+  }
+  .imgGallerie,
+  .masonry img {
+    width: 100%; /* Garder la largeur de l'image à 100% de la colonne */
+    max-width: 400px; /* Limite la taille de l'image (si nécessaire) */
+    margin-bottom: 20px; /* Espacement plus grand entre les images */
+  }
+}
 /* === Section Contact === */
 main {
   background-color: #f5e0f2;
