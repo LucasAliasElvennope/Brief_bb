@@ -1,18 +1,903 @@
-/* Error: expected "}".
- *    ,
- * 72 |     }
- *    |      ^
- *    '
- *   scss/pages/_tarifs.scss 72:6  @use
- *   scss/main.scss 18:1           root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: expected "}".\a    \2577 \a 72 \2502      }\a    \2502       ^\a    \2575 \a   scss/pages/_tarifs.scss 72:6  @use\a   scss/main.scss 18:1           root stylesheet';
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap");
+body {
+  font-family: "M PLUS Rounded 1c", sans-serif;
 }
+
+#textFooter {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: bolder;
+}
+
+.price {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  color: #D6456C;
+}
+
+#header,
+#header_studio,
+#header_tarifs {
+  width: 100%;
+  background-color: #fddaf8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 30px;
+}
+
+#header_tarifs {
+  background-color: #ffccf7;
+}
+
+#logo,
+#logo_studio {
+  display: flex;
+  align-self: center;
+  max-width: 250px;
+  height: auto;
+}
+
+#nav,
+#nav_studio {
+  display: flex;
+  gap: 200px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.btn {
+  justify-content: center;
+  align-items: center;
+  background-color: #D8A7B1;
+  color: white;
+  border: 1px solid #D8A7B1;
+  border-radius: 10px;
+  padding: 10px 20px;
+  text-align: center;
+  white-space: nowrap;
+  transition: background-color 0.3s ease;
+}
+.btn:hover {
+  background-color: #C8BFE7;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+  #nav,
+  #nav_studio {
+    flex-direction: column;
+    gap: 20px;
+  }
+  #logo,
+  #logo_studio {
+    max-width: 180px;
+  }
+  .btn {
+    width: 100%;
+    max-width: 260px;
+    padding: 10px;
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  #header,
+  #header_studio,
+  #header_tarifs {
+    padding: 20px;
+  }
+  #nav,
+  #nav_studio {
+    gap: 15px;
+  }
+}
+#title {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #000000;
+  margin: 40px auto;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: bolder;
+}
+
+#title_studio {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #000000;
+  margin: 40px auto;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: bolder;
+}
+
+#title_gallerie {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: #000000;
+  margin: 40px auto;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: bolder;
+}
+
+#title_gallerie2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+  color: #000000;
+  margin: 40px auto;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #000000;
+  margin: 40px auto;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: bolder;
+}
+
+.title_jr {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+  color: #000000;
+  margin: 40px auto;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+
+#enceinte {
+  width: 1000px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #333;
+  border-radius: 10px;
+}
+#enceinte:hover {
+  background-color: #C8BFE7;
+  color: #ffffff;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: #ffecfc;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#img1 {
+  width: 500px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #333;
+  border-radius: 10px;
+}
+#img1:hover {
+  background-color: #C8BFE7;
+  color: #ffffff;
+}
+
+#img2 {
+  width: 500px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #333;
+  border-radius: 10px;
+}
+#img2:hover {
+  background-color: #C8BFE7;
+  color: #ffffff;
+}
+
+#entrance {
+  width: 1000px;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #333;
+  border-radius: 10px;
+}
+#entrance:hover {
+  background-color: #C8BFE7;
+  color: #ffffff;
+}
+
+#footer,
+#footer_studio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+  background-color: #fddaf8;
+  color: #333;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+}
+
+/* Responsive footer pour petits écrans */
+@media screen and (max-width: 768px) {
+  #footer,
+  #footer_studio {
+    flex-direction: column; /* Met les éléments les uns au-dessus des autres */
+    padding: 20px;
+    gap: 15px;
+  }
+}
+.visually-hidden {
+  position: absolute !important;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+main {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#carte {
+  margin: 50px auto;
+  max-width: 800px;
+  text-align: center;
+  width: 100%;
+}
+#carte iframe {
+  width: 100%;
+  height: 400px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: block;
+}
+
+/* Styles généraux */
+/* Le container principal */
+#boite {
+  border: none;
+  display: grid;
+  grid-template-columns: 1fr; /* Une seule colonne */
+  gap: 10px;
+  place-items: center;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Le container boîte 1 */
+#boite1 {
+  border: none;
+  display: grid;
+  grid-template-columns: 1fr; /* Une seule colonne */
+  gap: 20px;
+  place-items: center;
+  align-items: stretch;
+  justify-items: center;
+  text-align: center;
+  height: auto;
+}
+
+#boite1 p {
+  border: none;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: bolder;
+  text-align: left;
+  line-height: 1.6;
+}
+
+/* Le container box */
+#box {
+  border: none;
+  display: grid;
+  grid-template-columns: 1fr; /* Une seule colonne */
+  gap: 10px;
+  place-items: center;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Le container principal */
+#container, #container1 {
+  border: none;
+  display: grid;
+  grid-template-columns: 1fr; /* Une seule colonne */
+  gap: 10px;
+  place-items: center;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Le container boite 2 */
+#boite2 {
+  border: none;
+  display: grid;
+  grid-template-columns: 1fr; /* Une seule colonne */
+  gap: 20px;
+  place-items: center;
+  text-align: center;
+  align-items: center;
+}
+
+/* Box individuelles */
+#box1, #box2, #box3 {
+  width: 100%;
+  max-width: 550px; /* Largeur maximale des box */
+  max-height: 600px;
+  background-color: #f3c1ff;
+  color: #333;
+  border-radius: 20px;
+  margin-bottom: 20px; /* Un petit espacement entre les box */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Espaces entre les sections */
+#espace, #espace1, #espace2 {
+  border: none;
+  height: 70px;
+  width: 100%;
+}
+
+/* Image avec bordure ronde */
+#imgBox {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border: 2px solid #333;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Responsive */
+/* Pour les petits écrans (smartphones) */
+@media (max-width: 768px) {
+  #boite, #boite1, #box, #container, #container1, #boite2 {
+    grid-template-columns: 1fr; /* Un seul élément par ligne */
+    gap: 20px;
+  }
+  #box1, #box2, #box3 {
+    width: 100%; /* Chaque boîte occupe toute la largeur */
+    height: auto;
+  }
+  #enceinte {
+    width: 100%; /* Image prend toute la largeur de son conteneur */
+    height: auto;
+  }
+  #imgBox {
+    width: 80%; /* Réduire la taille de l'image dans les boîtes */
+    margin: 0 auto;
+  }
+  #header {
+    padding: 20px; /* Moins de padding pour les petits écrans */
+  }
+  #nav {
+    flex-direction: column; /* Navigation en colonne pour les petits écrans */
+    gap: 10px;
+  }
+}
+/* Pour les tablettes en paysage ou autres écrans moyens */
+@media (max-width: 1024px) {
+  #boite, #boite1, #box, #container, #container1, #boite2 {
+    grid-template-columns: 1fr; /* Un seul élément par ligne */
+  }
+  #box1, #box2, #box3 {
+    width: 100%; /* Les boîtes prennent toute la largeur */
+    height: auto;
+  }
+  #imgBox {
+    width: 100%; /* Assurez-vous que l'image prend la largeur nécessaire */
+    height: auto;
+  }
+}
+/* Pour les grands écrans (bureau) */
+@media (min-width: 1025px) {
+  #boite, #boite1, #box, #container, #container1, #boite2 {
+    grid-template-columns: 1fr; /* Toujours une seule colonne */
+  }
+  #box1, #box2, #box3 {
+    width: 100%; /* Boîtes prennent toute la largeur */
+    height: auto;
+  }
+}
+#box_studio {
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+/* ==== IMAGE DE L'ENTRÉE ==== */
+#entrance {
+  background-color: #f0f0f0;
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+  border-radius: 20px;
+  object-fit: cover;
+  display: block;
+}
+
+/* ==== TEXTE PRINCIPAL ==== */
+#boite1_studio {
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center;
+  padding: 20px;
+  text-align: center;
+}
+
+#boite1_studio p {
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: left;
+  line-height: 1.6;
+  font-weight: 500;
+  border: none;
+  background: transparent;
+  padding: 10px;
+}
+
+/* ==== BLOCS IMAGES INT/EXT ==== */
+#boite2_studio {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+#int,
+#ext {
+  width: 100%;
+  max-width: 700px;
+  aspect-ratio: 7/5;
+  border: 1px solid #333;
+  border-radius: 20px;
+  background-color: #f0f0f0;
+  object-fit: cover;
+}
+
+/* ==== ESPACES ==== */
+#espace,
+#espace1 {
+  height: 60px;
+}
+
+/* ==== FOOTER ==== */
+#footer_studio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+  background-color: #fddaf8;
+  color: #333;
+  flex-direction: column;
+}
+
+#footer_studio p {
+  max-width: 900px;
+  width: 90%;
+  line-height: 1.5;
+}
+
+/* ==== RESPONSIVE ==== */
+@media screen and (max-width: 768px) {
+  #boite2_studio {
+    grid-template-columns: 1fr;
+  }
+  #int,
+  #ext,
+  #entrance {
+    width: 90%;
+  }
+  #boite1_studio p {
+    text-align: center;
+  }
+}
+#boite1_apropos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: start;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* ==== SECTIONS ==== */
+#boite1_apropos section {
+  text-align: left;
+}
+
+/* ==== IMAGE ==== */
+.img_apropos {
+  justify-self: center;
+  align-self: center;
+  width: 100%; /* Ajuste pour être plus flexible */
+  max-width: 700px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* ==== TEXTE ==== */
+.text, .text1, .text2 {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-size: 1rem;
+  line-height: 1.8;
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  padding: 20px;
+  gap: 10px;
+  border-radius: 10px;
+  text-align: left;
+  border: 1px solid #f3c1ff;
+  background-color: #ffecfc;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* ==== RESPONSIVE DESIGN ==== */
+@media screen and (max-width: 768px) {
+  #boite1_apropos {
+    grid-template-columns: 1fr; /* Passer en une seule colonne pour mobile */
+    text-align: center;
+  }
+  .text, .text1, .text2 {
+    width: 90%;
+    max-width: none;
+    font-size: 0.9rem;
+  }
+  .img_apropos {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+  }
+}
+/* ==== TITRES ==== */
+#title_gallerie {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top: 40px;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+}
+
+#title_gallerie2 {
+  text-align: center;
+  font-weight: 400;
+  margin: 20px auto;
+  font-size: 1.2rem;
+  max-width: 900px;
+  line-height: 1.6;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+}
+
+/* ==== GALERIE MASONRY ==== */
+.masonry {
+  column-count: 4;
+  column-gap: 15px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.imgGallerie,
+.masonry img {
+  width: 100%;
+  display: block;
+  margin-bottom: 15px;
+  border-radius: 15px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.imgGallerie:hover {
+  transform: scale(1.03);
+}
+
+/* ==== RESPONSIVE ==== */
+@media screen and (max-width: 1024px) {
+  .masonry {
+    column-count: 3;
+  }
+}
+@media screen and (max-width: 768px) {
+  .masonry {
+    column-count: 2;
+  }
+  #title_gallerie {
+    font-size: 2rem;
+  }
+  #title_gallerie2 {
+    font-size: 1rem;
+    padding: 0 10px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .masonry {
+    column-count: 1;
+  }
+  #title_gallerie {
+    font-size: 1.8rem;
+  }
+  #title_gallerie2 {
+    font-size: 0.95rem;
+  }
+}
+/* ==== FOOTER (déjà vu mais je te le remets propre) ==== */
+#footer {
+  background-color: #fddaf8;
+  text-align: center;
+  padding: 30px;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+}
+
+#footer p {
+  max-width: 900px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* === Section Contact === */
+#contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+  background-color: #fdfdfd;
+}
+
+/* Titre Contact */
+#title_contact {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-size: 2rem;
+  color: #444;
+  text-align: center;
+}
+
+/* Formulaire global */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Fieldsets */
+form fieldset {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* Légendes */
+form legend {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+/* Labels */
+form label {
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+}
+
+/* Inputs, Select, Textarea */
+form input[type=text],
+form input[type=email],
+form input[type=tel],
+form select,
+form textarea {
+  padding: 0.75rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  width: 100%;
+}
+
+form input::placeholder,
+form textarea::placeholder {
+  color: #aaa;
+  font-style: italic;
+}
+
+form textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+/* Radio inputs */
+form input[type=radio] {
+  margin-right: 0.5rem;
+}
+
+/* Groupe radio */
+.radio-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding-top: 0.5rem;
+}
+
+/* Bouton submit */
+form button {
+  align-self: flex-start;
+  padding: 0.75rem 1.5rem;
+  background-color: #f3bebe;
+  color: #000;
+  font-size: 1rem;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #e89ea1;
+}
+
+/* Responsive (petits écrans) */
+@media screen and (max-width: 600px) {
+  form {
+    padding: 1.5rem;
+  }
+  form button {
+    align-self: stretch;
+    text-align: center;
+  }
+}
+#container_tarifs {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  place-items: center;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.boite-tarifs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  place-items: center;
+  text-align: center;
+}
+
+.box-tarifs {
+  width: 700px;
+  height: 1090px;
+  background-color: #FFD1DC;
+  color: #333;
+  border-radius: 20px;
+  border: 2px solid #333;
+  padding: 20px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.box-tarifs img {
+  width: 90%;
+  height: 60%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+  .boite-tarifs {
+    grid-template-columns: 1fr;
+    padding: 1rem;
+  }
+  .box-tarifs {
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+  }
+  .box-tarifs img {
+    width: 100%;
+    height: auto;
+  }
+  .box-tarifs p {
+    padding: 0;
+  }
+  .title {
+    font-size: 2rem;
+    padding: 0 1rem;
+  }
+  .title_jr {
+    font-size: 1rem;
+    padding: 0 1rem;
+  }
+  #header {
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
+  #nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+  .btn {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+  }
+  #footer {
+    padding: 1rem;
+    font-size: 0.9rem;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
