@@ -19,8 +19,8 @@
 /* ==== GALERIE MASONRY ==== */
 .masonry {
   column-count: 4;
-  column-gap: 20px;
-  padding: 20px;
+  column-gap: 120px;
+  padding: 40px;
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -29,8 +29,8 @@
 .masonry img {
   width: 100%;
   display: block;
-  margin-bottom: 15px;
-  border-radius: 15px;
+  margin-bottom: 40px;
+  border-radius: 20px;
   box-shadow: 0 2px 10px rgba(0,0,0,0.1);
   transition: transform 0.3s ease;
 }
@@ -91,13 +91,13 @@
 
 @media screen and (min-width: 1025px) {
   .masonry {
-    column-count: 5; /* Augmente le nombre de colonnes */
+    column-count: 3; /* Augmente le nombre de colonnes */
   }
 
   .imgGallerie,
   .masonry img {
-    width: 100%; /* Garder la largeur de l'image à 100% de la colonne */
-    max-width: 400px; /* Limite la taille de l'image (si nécessaire) */
+    width: 135%; /* Garder la largeur de l'image à 100% de la colonne */
+    max-width: 600px; /* Limite la taille de l'image (si nécessaire) */
     margin-bottom: 20px; /* Espacement plus grand entre les images */
   }
 }
