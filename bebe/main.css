@@ -142,18 +142,23 @@ body {
 }
 #footer,
 #footer_studio {
+  margin-top: auto;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   padding: 30px;
-  background-color: #f1c1f3;
+  background-color: #FFB0C0;
   color: #333;
   flex-direction: row;
   flex-wrap: wrap;
   gap: 20px;
+}
+#footer p,
+#footer_studio p {
   font-family: "M PLUS Rounded 1c", sans-serif;
   font-size: large;
+  background-color: #FFB0C0;
 }
 
 /* Responsive footer pour petits écrans */
@@ -331,7 +336,7 @@ body {
 }
 
 main {
-  background-color: #FFB0C0;
+  background-color: #F8E8D2;
 }
 
 /* Le container principal */
@@ -570,24 +575,6 @@ main {
   height: 60px;
 }
 
-/* ==== FOOTER ==== */
-#footer_studio {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 30px;
-  background-color: #fddaf8;
-  color: #333;
-  flex-direction: column;
-}
-
-#footer_studio p {
-  max-width: 900px;
-  width: 90%;
-  line-height: 1.5;
-}
-
 /* ==== RESPONSIVE ==== */
 @media screen and (max-width: 768px) {
   #boite2_studio {
@@ -735,19 +722,6 @@ main {
   }
 }
 /* ==== FOOTER (déjà vu mais je te le remets propre) ==== */
-#footer {
-  background-color: #fddaf8;
-  text-align: center;
-  padding: 30px;
-  font-family: "M PLUS Rounded 1c", sans-serif;
-}
-
-#footer p {
-  max-width: 900px;
-  margin: 0 auto;
-  line-height: 1.6;
-}
-
 @media screen and (min-width: 1025px) {
   .masonry {
     column-count: 3; /* Augmente le nombre de colonnes */
@@ -759,11 +733,6 @@ main {
     margin-bottom: 20px; /* Espacement plus grand entre les images */
   }
 }
-/* === Section Contact === */
-main {
-  background-color: #f5e0f2;
-}
-
 #contact {
   display: flex;
   flex-direction: column;
