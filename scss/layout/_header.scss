@@ -23,7 +23,7 @@
 #logo_studio {
   display: flex;
   align-self: center;
-  max-width: 250px;
+  max-width: auto;
   height: auto;
 }
 
@@ -75,7 +75,7 @@
     width: 100%;
     max-width: 260px;
     padding: 10px;
-    font-size: 1rem;
+    font-size: large;
     text-align: left; /* Aligner le texte à gauche */
   }
 
