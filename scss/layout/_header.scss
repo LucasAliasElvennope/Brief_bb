@@ -88,3 +88,29 @@
 #nav {
   transition: transform 0.3s ease;
 }
+
+
+/* Responsive : Menu burger visible sur petits écrans */
+@media screen and (max-width: 768px) {
+  #nav {
+    flex-direction: column;
+    gap: 20px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    background-color: #fddaf8;  /* Couleur spécifique du menu sur petits écrans */
+    position: absolute;
+    top: 70px;
+    left: 0;
+    transform: translateX(-100%); /* Initialement caché */
+  }
+
+  /* Lorsque la case est cochée, afficher le menu */
+  #menu-toggle:checked + #burger-menu + #nav {
+    transform: translateX(0); /* Afficher le menu */
+  }
+
+  /* Menu burger visible et la transition fluide */
+  #burger-menu {
+    display: block;
+  }
