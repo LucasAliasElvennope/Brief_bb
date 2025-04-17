@@ -151,3 +151,26 @@
     font-size: 1rem;
   }
 }
+
+/* For smaller devices like phones */
+@media screen and (max-width: 480px) {
+  #header,
+  #header_studio,
+  #header_tarifs {
+    padding: 20px;
+  }
+
+  #nav,
+  #nav_studio {
+    gap: 15px;
+  }
+
+  .btn {
+    font-size: 0.9rem;
+  }
+}
+
+/* Définit la couleur de fond du body pour qu'elle ne soit pas modifiée par le header */
+body {
+  background-color: #fff;  /* Couleur de fond globale */
+}
