@@ -1,5 +1,8 @@
 
-@use '../abstracts/variables' as *;#title {
+@use '../abstracts/variables' as *;
+
+#title {
+  background-color: $fond-principal;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -12,6 +15,7 @@
 }
 
 #title_studio {
+  background-color: $fond-principal;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -24,6 +28,7 @@
 }
 
 #title_gallerie {
+  background-color: $fond-principal;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -36,6 +41,7 @@
 }
 
 #title_gallerie2 {
+  background-color: $fond-principal;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -48,6 +54,7 @@
 }
 
 .title {
+  background-color: $fond-principal;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -60,6 +67,7 @@
 }
 
 .title_jr {
+  background-color: $fond-principal;
   display: flex;
   justify-content: center;
   text-align: center;

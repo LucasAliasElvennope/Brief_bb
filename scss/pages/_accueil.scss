@@ -2,12 +2,20 @@
 
 @use '../abstracts/variables' as *;
 
+body {
+  background-color: $fond-principal;
+}
+
+main {
+  background-color: $rose-bebe;  
+}
+
 /* Le container principal */
 #boite {
+  background-color: $fond-principal;
   border: none;
   display: grid;
   grid-template-columns: 1fr; /* Une seule colonne */
-  gap: 10px;
   place-items: center;
   align-items: center;
   justify-content: center;
@@ -16,6 +24,7 @@
 
 /* Le container boîte 1 */
 #boite1 {
+  background-color: $fond-principal;
   border: none;
   display: grid;
   grid-template-columns: 1fr; /* Une seule colonne */
@@ -28,7 +37,7 @@
 }
 
 #boite1 p {
-  background-color: transparent;
+  background-color: $fond-principal;
   border: none;
   width: 100%;
   max-width: 800px;
@@ -41,6 +50,7 @@
 
 /* Le container box */
 #box {
+  background-color: $fond-principal;
   border: none;
   display: grid;
   grid-template-columns: 1fr; /* Une seule colonne */
@@ -56,6 +66,7 @@
 
 /* Le container principal */
 #container, #container1 {
+  background-color: $fond-principal;
   border: none;
   display: grid;
   grid-template-columns: 1fr; /* Une seule colonne */
@@ -68,6 +79,7 @@
 
 /* Le container boite 2 */
 #boite2 {
+  background-color: $fond-principal;
   border: none;
   display: grid;
   grid-template-columns: 1fr; /* Une seule colonne */
@@ -79,6 +91,7 @@
 
 /* Box individuelles */
 #box1, #box2, #box3 {
+  background-color: $fond-principal;
   width: 100%;
   max-width: 550px; /* Largeur maximale des box */
   max-height: 600px;
@@ -98,6 +111,7 @@
 
 /* Espaces entre les sections */
 #espace, #espace1, #espace2 {
+  background-color: $fond-principal;
   border: none;
   height: 70px;
   width: 100%;
@@ -105,6 +119,7 @@
 
 /* Image avec bordure ronde */
 #imgBox {
+  background-color: $fond-principal;
   margin-bottom: 10px;
   margin-top: 10px;
   border: 2px solid #333;

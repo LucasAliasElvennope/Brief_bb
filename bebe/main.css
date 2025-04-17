@@ -43,7 +43,7 @@ body {
 #header_studio,
 #header_tarifs {
   width: 100%;
-  background-color: #ffccf7;
+  background-color: #FFB0C0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -53,7 +53,7 @@ body {
 }
 
 #header_tarifs {
-  background-color: #ffccf7;
+  background-color: transparent;
 }
 
 #logo,
@@ -166,6 +166,7 @@ body {
   }
 }
 #title {
+  background-color: #F8E8D2;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -178,6 +179,7 @@ body {
 }
 
 #title_studio {
+  background-color: #F8E8D2;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -190,6 +192,7 @@ body {
 }
 
 #title_gallerie {
+  background-color: #F8E8D2;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -202,6 +205,7 @@ body {
 }
 
 #title_gallerie2 {
+  background-color: #F8E8D2;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -214,6 +218,7 @@ body {
 }
 
 .title {
+  background-color: #F8E8D2;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -226,6 +231,7 @@ body {
 }
 
 .title_jr {
+  background-color: #F8E8D2;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -320,12 +326,20 @@ body {
 }
 
 /* Styles généraux */
+body {
+  background-color: #F8E8D2;
+}
+
+main {
+  background-color: #FFB0C0;
+}
+
 /* Le container principal */
 #boite {
+  background-color: #F8E8D2;
   border: none;
   display: grid;
   grid-template-columns: 1fr; /* Une seule colonne */
-  gap: 10px;
   place-items: center;
   align-items: center;
   justify-content: center;
@@ -334,6 +348,7 @@ body {
 
 /* Le container boîte 1 */
 #boite1 {
+  background-color: #F8E8D2;
   border: none;
   display: grid;
   grid-template-columns: 1fr; /* Une seule colonne */
@@ -346,7 +361,7 @@ body {
 }
 
 #boite1 p {
-  background-color: transparent;
+  background-color: #F8E8D2;
   border: none;
   width: 100%;
   max-width: 800px;
@@ -359,6 +374,7 @@ body {
 
 /* Le container box */
 #box {
+  background-color: #F8E8D2;
   border: none;
   display: grid;
   grid-template-columns: 1fr; /* Une seule colonne */
@@ -374,6 +390,7 @@ body {
 
 /* Le container principal */
 #container, #container1 {
+  background-color: #F8E8D2;
   border: none;
   display: grid;
   grid-template-columns: 1fr; /* Une seule colonne */
@@ -386,6 +403,7 @@ body {
 
 /* Le container boite 2 */
 #boite2 {
+  background-color: #F8E8D2;
   border: none;
   display: grid;
   grid-template-columns: 1fr; /* Une seule colonne */
@@ -397,6 +415,7 @@ body {
 
 /* Box individuelles */
 #box1, #box2, #box3 {
+  background-color: #F8E8D2;
   width: 100%;
   max-width: 550px; /* Largeur maximale des box */
   max-height: 600px;
@@ -416,6 +435,7 @@ body {
 
 /* Espaces entre les sections */
 #espace, #espace1, #espace2 {
+  background-color: #F8E8D2;
   border: none;
   height: 70px;
   width: 100%;
@@ -423,6 +443,7 @@ body {
 
 /* Image avec bordure ronde */
 #imgBox {
+  background-color: #F8E8D2;
   margin-bottom: 10px;
   margin-top: 10px;
   border: 2px solid #333;
