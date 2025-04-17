@@ -20,17 +20,15 @@ body {
 #header_studio,
 #header_tarifs {
   width: 100%;
-  background-color: #fddaf8;
+  background-color: #ffd2f8; /* Couleur spécifique du fond du header */
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   text-align: center;
   padding: 30px;
-}
-
-#header_tarifs {
-  background-color: #ffccf7;
+  position: relative; /* Assure que le header n'interfère pas avec les autres sections */
+  z-index: 10; /* Empêche qu'il affecte l'affichage d'autres sections */
 }
 
 #logo,
@@ -63,39 +61,12 @@ body {
   transition: background-color 0.3s ease;
   text-decoration: none;
 }
+
 .btn:hover {
   background-color: #C8BFE7;
   color: #ffffff;
 }
 
-@media screen and (max-width: 768px) {
-  #nav,
-  #nav_studio {
-    flex-direction: column;
-    gap: 20px;
-  }
-  #logo,
-  #logo_studio {
-    max-width: 180px;
-  }
-  .btn {
-    width: 100%;
-    max-width: 260px;
-    padding: 10px;
-    font-size: 1rem;
-  }
-}
-@media screen and (max-width: 480px) {
-  #header,
-  #header_studio,
-  #header_tarifs {
-    padding: 20px;
-  }
-  #nav,
-  #nav_studio {
-    gap: 15px;
-  }
-}
 #title {
   display: flex;
   justify-content: center;
@@ -304,7 +275,7 @@ main {
 
 /* Styles généraux */
 body {
-  background-color: #ffeafc;
+  background-color: #7e5577;
 }
 
 /* Le container principal */

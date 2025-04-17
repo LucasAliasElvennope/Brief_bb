@@ -2,17 +2,15 @@
 #header_studio,
 #header_tarifs {
   width: 100%;
-  background-color: #fddaf8;
+  background-color: #ffd2f8; /* Couleur spécifique du fond du header */
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   text-align: center;
   padding: 30px;
-}
-
-#header_tarifs {
-  background-color: #ffccf7;
+  position: relative;  /* Assure que le header n'interfère pas avec les autres sections */
+  z-index: 10;  /* Empêche qu'il affecte l'affichage d'autres sections */
 }
 
 #logo,
@@ -44,97 +42,9 @@
   white-space: nowrap;
   transition: background-color 0.3s ease;
   text-decoration: none;
-
-  &:hover {
-    background-color: #C8BFE7;
-    color: #ffffff;
-  }
-} 
-
-/* Responsive */
-@media screen and (max-width: 768px) {
-  #nav,
-  #nav_studio {
-    flex-direction: column;
-    gap: 20px; /* Espacement vertical pour les petits écrans */
-    justify-content: flex-start;
-    align-items: flex-start; /* Alignement à gauche */
-  }
-
-  #logo,
-  #logo_studio {
-    max-width: 180px;
-  }
-
-  .btn {
-    width: 100%;
-    max-width: 260px;
-    padding: 10px;
-    font-size: 1rem;
-    text-align: left; /* Aligner le texte à gauche */
-  }
-
-  /* Menu burger */
-  #burger-menu {
-    display: block; /* Afficher le menu burger */
-    cursor: pointer;
-    position: absolute;
-    top: 30px; /* Pour avoir un peu d'espace du haut */
-    right: 20px; /* Positionner à droite */
-  }
-
-  #nav {
-    display: none; /* Cacher le menu classique */
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    background-color: #fddaf8;
-    position: absolute;
-    top: 70px; /* Décalage pour ne pas chevaucher le logo */
-    left: 0;
-  }
-
-  #nav.show {
-    display: flex; /* Afficher le menu quand il est activé */
-  }
-
-  /* Style des liens du menu burger */
-  #nav a {
-    padding: 15px;
-    text-align: center;
-    background-color: #D8A7B1;
-    border: none;
-    width: 100%;
-    color: white;
-    text-decoration: none;
-    font-size: 1.2rem;
-  }
-
-   /* Menu burger : transition pour une ouverture fluide */
-   .burger-bar {
-    display: block;
-    width: 30px;
-    height: 4px;
-    margin: 6px auto;
-    background-color: #333;
-    transition: all 0.3s ease;
-  }
 }
 
-/* For even smaller devices, like phones with 480px width */
-@media screen and (max-width: 480px) {
-  #header,
-  #header_studio,
-  #header_tarifs {
-    padding: 20px;
-  }
-
-  #nav,
-  #nav_studio {
-    gap: 15px;
-  }
-
-  .btn {
-    font-size: 0.9rem; /* Taille plus petite pour s'adapter à l'écran */
-  }
+.btn:hover {
+  background-color: #C8BFE7;
+  color: #ffffff;
 }
