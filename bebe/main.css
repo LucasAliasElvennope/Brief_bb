@@ -16,55 +16,60 @@ body {
   color: #D6456C;
 }
 
-#header,
-#header_studio,
-#header_tarifs {
+#header {
   width: 100%;
-  background-color: #ffd2f8; /* Couleur spécifique du fond du header */
+  height: 80px; /* Height of the header */
+  background-color: #ffd2f8;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  flex-direction: column;
-  text-align: center;
-  padding: 30px;
-  position: relative; /* Assure que le header n'interfère pas avec les autres sections */
-  z-index: 10; /* Empêche qu'il affecte l'affichage d'autres sections */
+  padding: 0 20px;
+  position: relative;
 }
 
-#logo,
-#logo_studio {
-  display: flex;
-  align-self: center;
-  max-width: 250px;
+/* Logo */
+#logo {
+  max-width: 200px;
   height: auto;
 }
 
-#nav,
-#nav_studio {
+/* Navigation Bar */
+#nav {
   display: flex;
-  gap: 200px;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
+  gap: 30px;
 }
 
-.btn {
-  justify-content: center;
-  align-items: center;
+#nav a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+#nav a:hover {
   background-color: #D8A7B1;
   color: white;
-  border: 1px solid #D8A7B1;
-  border-radius: 10px;
-  padding: 10px 20px;
-  text-align: center;
-  white-space: nowrap;
-  transition: background-color 0.3s ease;
-  text-decoration: none;
 }
 
-.btn:hover {
-  background-color: #C8BFE7;
-  color: #ffffff;
+/* Menu Burger */
+.menu-toggle {
+  display: none; /* Hide the checkbox */
+}
+
+#burger-menu {
+  display: none; /* Initially hidden */
+  cursor: pointer;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.burger-bar {
+  width: 30px;
+  height: 4px;
+  background-color: #333;
+  transition: all 0.3s ease;
 }
 
 #title {
@@ -275,7 +280,7 @@ main {
 
 /* Styles généraux */
 body {
-  background-color: #7e5577;
+  background-color: #530047;
 }
 
 /* Le container principal */
