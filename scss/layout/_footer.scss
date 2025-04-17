@@ -11,7 +11,7 @@
   flex-wrap: wrap;
   gap: 20px;
   font-family: 'M PLUS Rounded 1c', sans-serif;
-  font-size: medium;
+  font-size: large;
 }
 
 /* Responsive footer pour petits écrans */
@@ -21,6 +21,5 @@
     flex-direction: column; /* Met les éléments les uns au-dessus des autres */
     padding: 20px;
     gap: 15px;
-    font-size: small;
   }
 }
