@@ -1,7 +1,7 @@
 /* Styles généraux */
 
 body {
-  background-color: #ffebfc;
+  background-color: #ffe3fb;
 }
 
 /* Le container principal */
@@ -50,6 +50,9 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
+  #enceinte {
+    border: none;
+  }
 }
 
 /* Le container principal */
@@ -80,7 +83,8 @@ body {
   width: 100%;
   max-width: 550px; /* Largeur maximale des box */
   max-height: 600px;
-  background-color: #f3c1ff;
+  background-color: #f8c4eb;
+  border: 1px solid #333;
   color: #333;
   border-radius: 20px;
   margin-bottom: 20px; /* Un petit espacement entre les box */
