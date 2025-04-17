@@ -48,3 +48,43 @@
   background-color: #C8BFE7;
   color: #ffffff;
 }
+
+/* Menu Burger - Utilisation de la case à cocher */
+.menu-toggle {
+  display: none; /* Cacher la case à cocher */
+}
+
+#burger-menu {
+  display: none;
+  cursor: pointer;
+  position: absolute;
+  top: 30px;
+  right: 20px;
+  z-index: 100;
+}
+
+.burger-bar {
+  display: block;
+  width: 30px;
+  height: 4px;
+  margin: 6px auto;
+  background-color: #333;
+  transition: all 0.3s ease;
+}
+
+#nav {
+  display: flex;
+  gap: 200px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#nav a {
+  text-decoration: none;
+  color: white;
+}
+
+#nav {
+  transition: transform 0.3s ease;
+}
