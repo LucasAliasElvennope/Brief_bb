@@ -1,11 +1,15 @@
 /* === Section Contact === */
+main {
+  background-color: #f5e0f2;
+}
+
 #contact {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 2rem;
   padding: 2rem;
-  background-color: #fdfdfd;
+  background-color: #f5e0f2;
 }
 
 /* Titre Contact */
