@@ -4,6 +4,7 @@
 #header,
 #header_studio,
 #header_tarifs {
+  font-size: large;
   width: 100%;
   background-color: $rose-poudre;
   display: flex;
@@ -28,6 +29,7 @@
 
 #nav,
 #nav_studio {
+  font-size: large;
   display: flex;
   gap: 200px;
   justify-content: center;
@@ -47,7 +49,7 @@
   white-space: nowrap;
   transition: background-color 0.3s ease;
   text-decoration: none;
-
+  font-size: large;
   &:hover {
     background-color: $rose-bebe;
     color: #000000;

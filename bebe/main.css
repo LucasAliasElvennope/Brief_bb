@@ -42,6 +42,7 @@ body {
 #header,
 #header_studio,
 #header_tarifs {
+  font-size: large;
   width: 100%;
   background-color: #F7D0D5;
   display: flex;
@@ -66,6 +67,7 @@ body {
 
 #nav,
 #nav_studio {
+  font-size: large;
   display: flex;
   gap: 200px;
   justify-content: center;
@@ -85,6 +87,7 @@ body {
   white-space: nowrap;
   transition: background-color 0.3s ease;
   text-decoration: none;
+  font-size: large;
 }
 .btn:hover {
   background-color: #FFB0C0;
@@ -628,8 +631,8 @@ main {
   gap: 10px;
   border-radius: 10px;
   text-align: left;
-  border: 1px solid #e7a8f7;
-  background-color: transparent;
+  border: 1px solid #000000;
+  background-color: #F7D0D5;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
 }
 
@@ -720,7 +723,7 @@ main {
     font-size: 0.95rem;
   }
 }
-/* ==== FOOTER (déjà vu mais je te le remets propre) ==== */
+/* ==== FOOTER ==== */
 @media screen and (min-width: 1025px) {
   .masonry {
     column-count: 3; /* Augmente le nombre de colonnes */

@@ -1,3 +1,5 @@
+@use '../abstracts/variables' as *;
+
 #boite1_apropos {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -38,8 +40,8 @@
   gap: 10px;
   border-radius: 10px;
   text-align: left;
-  border: 1px solid #e7a8f7;
-  background-color: transparent;
+  border: 1px solid #000000;
+  background-color: $rose-poudre;
   box-shadow: 0 4px 10px rgba(0,0,0,0.05);
 }
 
