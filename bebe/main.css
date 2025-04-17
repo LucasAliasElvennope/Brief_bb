@@ -20,7 +20,7 @@ body {
 #header_studio,
 #header_tarifs {
   width: 100%;
-  background-color: #f1c1f3;
+  background-color: #ffccf7;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -53,7 +53,7 @@ body {
 .btn {
   justify-content: center;
   align-items: center;
-  background-color: #e2a7d8;
+  background-color: #FFD1DC;
   color: white;
   border: 1px solid #D8A7B1;
   border-radius: 10px;
@@ -305,11 +305,6 @@ html, body {
   height: 100%;
 }
 
-main {
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
-
 #carte {
   margin: 50px auto;
   max-width: 800px;
@@ -326,10 +321,6 @@ main {
 }
 
 /* Styles généraux */
-body {
-  background-color: #ffe3fb;
-}
-
 /* Le container principal */
 #boite {
   border: none;
@@ -410,7 +401,7 @@ body {
   width: 100%;
   max-width: 550px; /* Largeur maximale des box */
   max-height: 600px;
-  background-color: #f8c4eb;
+  background-color: #FCEEF0;
   border: 1px solid #333;
   color: #333;
   border-radius: 20px;
