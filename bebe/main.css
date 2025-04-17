@@ -354,6 +354,7 @@ body {
 }
 
 #boite1 p {
+  background-color: transparent;
   border: none;
   width: 100%;
   max-width: 800px;
