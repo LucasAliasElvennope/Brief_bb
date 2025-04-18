@@ -1,0 +1,17 @@
+#carte {
+    margin: 50px auto;
+    max-width: 800px;
+    text-align: center;
+    width: 100%; // Assure-toi que la carte occupe bien toute la largeur disponible
+  
+    iframe {
+      width: 100%;  // Prendre toute la largeur disponible
+      height: 400px;  // Hauteur de l'iframe (tu peux l'ajuster)
+      border: none;   // Supprime la bordure de l'iframe
+      border-radius: 10px;  // Arrondir les coins
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  // Ombre légère autour de l'iframe
+      display: block;  // Évite un espace sous l'iframe
+    }
+}
+    
+

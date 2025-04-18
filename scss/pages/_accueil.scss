@@ -1,0 +1,198 @@
+/* Styles généraux */
+
+@use '../abstracts/variables' as *;
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  background-color: $fond-principal;  
+}
+
+/* Le container principal */
+#boite {
+  background-color: $fond-principal;
+  border: none;
+  display: grid;
+  grid-template-columns: 1fr; /* Une seule colonne */
+  place-items: center;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Le container boîte 1 */
+#boite1 {
+  background-color: $fond-principal;
+  border: none;
+  display: grid;
+  grid-template-columns: 1fr; /* Une seule colonne */
+  gap: 20px;
+  place-items: center;
+  align-items: stretch;
+  justify-items: center;
+  text-align: center;
+  height: auto;
+}
+
+#boite1 p {
+  background-color: $fond-principal;
+  border: none;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-weight: bolder;
+  text-align: left;
+  line-height: 1.6;
+}
+
+/* Le container box */
+#box {
+  background-color: $fond-principal;
+  border: none;
+  display: grid;
+  grid-template-columns: 1fr; /* Une seule colonne */
+  gap: 10px;
+  place-items: center;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  #enceinte {
+    border: none;
+  }
+}
+
+/* Le container principal */
+#container, #container1 {
+  background-color: $fond-principal;
+  border: none;
+  display: grid;
+  grid-template-columns: 1fr; /* Une seule colonne */
+  gap: 10px;
+  place-items: center;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Le container boite 2 */
+#boite2 {
+  background-color: $fond-principal;
+  border: none;
+  display: grid;
+  grid-template-columns: 1fr; /* Une seule colonne */
+  gap: 20px;
+  place-items: center;
+  text-align: center;
+  align-items: center;
+}
+
+/* Box individuelles */
+#box1, #box2, #box3 {
+  background-color: $fond-principal;
+  width: 100%;
+  max-width: 550px; /* Largeur maximale des box */
+  max-height: 600px;
+  background-color: $rose-poudre;
+  border: 1px solid #333;
+  color: #333;
+  border-radius: 20px;
+  margin-bottom: 20px; /* Un petit espacement entre les box */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  border-radius: 20px;
+  padding: 20px;
+}
+
+/* Espaces entre les sections */
+#espace, #espace1, #espace2 {
+  background-color: $fond-principal;
+  border: none;
+  height: 70px;
+  width: 100%;
+}
+
+/* Image avec bordure ronde */
+#imgBox {
+  background-color: $fond-principal;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border: 2px solid #333;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Responsive */
+
+/* Pour les petits écrans (smartphones) */
+@media (max-width: 768px) {
+  #boite, #boite1, #box, #container, #container1, #boite2 {
+    grid-template-columns: 1fr; /* Un seul élément par ligne */
+    gap: 20px;
+  }
+
+  #box1, #box2, #box3 {
+    width: 100%; /* Chaque boîte occupe toute la largeur */
+    height: auto;
+  }
+
+  #enceinte {
+    width: 100%; /* Image prend toute la largeur de son conteneur */
+    height: auto;
+  }
+
+  #imgBox {
+    width: 80%; /* Réduire la taille de l'image dans les boîtes */
+    margin: 0 auto;
+  }
+
+  #header {
+    padding: 20px; /* Moins de padding pour les petits écrans */
+  }
+
+  #nav {
+    flex-direction: column; /* Navigation en colonne pour les petits écrans */
+    gap: 10px;
+  }
+}
+
+/* Pour les tablettes en paysage ou autres écrans moyens */
+@media (max-width: 1024px) {
+  #boite, #boite1, #box, #container, #container1, #boite2 {
+    grid-template-columns: 1fr; /* Un seul élément par ligne */
+  }
+
+  #box1, #box2, #box3 {
+    width: 100%; /* Les boîtes prennent toute la largeur */
+    height: auto;
+  }
+
+  #imgBox {
+    width: 100%; /* Assurez-vous que l'image prend la largeur nécessaire */
+    height: auto;
+  }
+}
+
+/* Pour les grands écrans (bureau) */
+@media (min-width: 1025px) {
+  #boite, #boite1, #box, #container, #container1, #boite2 {
+    grid-template-columns: 1fr; /* Toujours une seule colonne */
+  }
+
+  #box1, #box2, #box3 {
+    width: 100%; /* Boîtes prennent toute la largeur */
+    height: auto;
+  }
+}

@@ -1,0 +1,30 @@
+@use '../abstracts/variables' as *;
+
+#footer,
+#footer_studio {
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+  background-color: $rose-poudre;
+  color: #333;
+  flex-direction: row;
+  flex-wrap: wrap;
+  p {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: large;
+    background-color: $rose-poudre;
+  }
+}
+
+/* Responsive footer pour petits écrans */
+@media screen and (max-width: 768px) {
+  #footer,
+  #footer_studio {
+    flex-direction: column; /* Met les éléments les uns au-dessus des autres */
+    padding: 20px;
+    gap: 15px;
+  }
+}
