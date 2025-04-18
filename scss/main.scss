@@ -1,0 +1,23 @@
+// main.scss
+
+@use 'abstracts/variables';    // Importer les variables
+@use 'base/reset';             // Importer les reset de styles
+@use 'base/typography';        // Importer la typographie de base
+@use 'base/base';              // Importer les styles de base
+
+@use 'layout/grid';            // Importer la grille
+@use 'layout/header';          // Importer les styles du header
+@use 'layout/footer';          // Importer les styles du footer
+@use 'layout/main';            // Importer les styles du main
+
+@use 'components/buttons';     // Importer les styles des boutons
+@use 'components/titles';      // Importer les styles des titres
+@use 'components/carte';       // Importer les styles des cartes
+
+@use 'pages/home';             // Importer les styles de la page d'accueil
+@use 'pages/accueil';          // Importer les styles de la page accueil
+@use 'pages/Studio';           // Importer les styles de la page studio
+@use 'pages/apropos';          // Importer les styles de la page à propos
+@use 'pages/gallery';          // Importer les styles de la galerie
+@use 'pages/contact';          // Importer les styles de la page contact
+@use 'pages/tarifs';         

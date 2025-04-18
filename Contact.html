@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Photographe professionnelle spécialisée dans la photographie de bébés, grossesses et naissances">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap" rel="stylesheet">
+<link rel="icon" href="assets/images/Logo.png" type="image/x-icon">
+<link rel="stylesheet" href="bebe/main.css">
+    <title>Léa Petits Clichés - Contact</title>
+</head>
+<body id="contact_body">
+    <header id="header">
+        <img id="logo" src="https://raw.githubusercontent.com/LucasAliasElvennope/image_for_project/refs/heads/feature/img/LogoSample_ByTailorBrands-removebg-preview.png" alt="logo site web">
+        <nav id="nav">
+            <a href="Accueil.html" class="btn">Accueil</a>
+            <a href="Le_studio.html" class="btn">Le Studio</a>
+            <a href="Galerie.html" class="btn">Galerie</a>
+            <a href="Tarifs.html" class="btn">Les tarifs</a>
+            <a href="A_propos.html" class="btn">À propos</a>
+            <a href="Contact.html" class="btn">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section id="contact">
+            <h2 id="title_contact">Contactez-moi</h2>
+            <p>Vous souhaitez réserver une séance ou poser une question ? Remplissez ce formulaire et je reviendrai vers vous très vite.</p>
+              
+                <form action="traitement.php" method="post">
+                  
+                  <fieldset>
+                    <legend>Vos informations</legend>
+              
+                    <label for="nom">Nom complet *</label>
+                    <input type="text" id="nom" name="nom" required>
+              
+                    <label for="email">Adresse email *</label>
+                    <input type="email" id="email" name="email" required>
+              
+                    <label for="telephone">Téléphone</label>
+                    <input type="tel" id="telephone" name="telephone">
+                  </fieldset>
+              
+                  <fieldset>
+                    <legend>Votre séance</legend>
+              
+                    <label for="prestation">Type de séance *</label>
+                    <select id="prestation" name="prestation" required>
+                      <option value="">-- Sélectionnez --</option>
+                      <option value="grossesse">Grossesse</option>
+                      <option value="naissance">Naissance</option>
+                      <option value="bebe">Bébé</option>
+                      <option value="famille">Famille</option>
+                      <option value="autre">Autre</option>
+                    </select>
+              
+                    <p>Formule souhaitée *</p>
+                    <label>
+                      <input type="radio" name="formule" value="studio" required>
+                      Séance en studio
+                    </label>
+                    <label>
+                      <input type="radio" name="formule" value="exterieur" required>
+                      Séance à domicile ou en extérieur
+                    </label>
+              
+                    <label for="message">Votre message *</label>
+                    <textarea id="message" name="message" rows="6" required></textarea>
+                  </fieldset>
+              
+                  <button type="submit">Envoyer</button>
+                </form>
+              </section>
+        
+    </main>
+    <footer id="footer">
+        <p id="textFooter"> &nbsp; Vous pouvez nous retrouvez au <strong>7 Chemin des petits pieds</strong> &nbsp; <br>
+            Suivez nous sur <a href="https://www.instagram.com">Instagram 📷</a> &nbsp; <a href="https://www.twitter.com">X🐦</a> &nbsp; <a href="https://www.tiktok.com">Tiktok ♪ </a><br>
+            Contactez nous par email <a href="mailto:studio@leapetitcliches.fr">studio@leapetitcliches.fr</a> &nbsp; ou par téléphone <a href="tel:+33612345678">06 12 13 14 15</a> <br>
+            &copy; 2025 Léa Petits Clichés- Tous droits réservés</p>
+    </footer>
+</body>
+</html>

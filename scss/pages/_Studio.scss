@@ -1,0 +1,85 @@
+#box_studio {
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+/* ==== IMAGE DE L'ENTRÉE ==== */
+#entrance {
+  background-color: #f0f0f0;
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+  border-radius: 20px;
+  object-fit: cover;
+  display: block;
+}
+
+/* ==== TEXTE PRINCIPAL ==== */
+#boite1_studio {
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center;
+  padding: 20px;
+  text-align: center;
+}
+
+#boite1_studio p {
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: left;
+  line-height: 1.6;
+  font-weight: 500;
+  border: none;
+  background: transparent;
+  padding: 10px;
+}
+
+/* ==== BLOCS IMAGES INT/EXT ==== */
+#boite2_studio {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px;
+}
+
+#int,
+#ext {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 700px;
+  aspect-ratio: 7 / 5;
+  border: 1px solid #333;
+  border-radius: 20px;
+  background-color: #f0f0f0;
+  object-fit: cover;
+}
+
+/* ==== ESPACES ==== */
+#espace,
+#espace1 {
+  height: 60px;
+}
+
+
+/* ==== RESPONSIVE ==== */
+@media screen and (max-width: 768px) {
+  #boite2_studio {
+    grid-template-columns: 1fr;
+  }
+
+  #int,
+  #ext,
+  #entrance {
+    width: 90%;
+  }
+
+  #boite1_studio p {
+    text-align: center;
+  }
+}

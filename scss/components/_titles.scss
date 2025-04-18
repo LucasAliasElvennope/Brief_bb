@@ -1,0 +1,80 @@
+
+@use '../abstracts/variables' as *;
+
+#title {
+  background-color: $fond-principal;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #000000;
+  margin: 40px auto;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: bolder;
+}
+
+#title_studio {
+  background-color: $fond-principal;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #000000;
+  margin: 40px auto;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: bolder;
+}
+
+#title_gallerie {
+  background-color: $fond-principal;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: #000000;
+  margin: 40px auto;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: bolder;
+}
+
+#title_gallerie2 {
+  background-color: $fond-principal;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+  color: #000000;
+  margin: 40px auto;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+
+.title {
+  background-color: $fond-principal;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #000000;
+  margin: 40px auto;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: bolder;
+}
+
+.title_jr {
+  background-color: $fond-principal;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+  color: #000000;
+  margin: 40px auto;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: bolder;
+  font-size: 1.5rem;
+}

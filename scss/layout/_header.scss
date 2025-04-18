@@ -1,0 +1,113 @@
+
+@use '../abstracts/variables' as *;
+
+#header,
+#header_studio,
+#header_tarifs {
+  font-size: large;
+  width: 100%;
+  background-color: $rose-poudre;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 30px;
+}
+
+#header_tarifs {
+  background-color: transparent;
+}
+
+#logo,
+#logo_studio {
+  display: flex;
+  align-self: center;
+  max-width: auto;
+  height: auto;
+}
+
+#nav,
+#nav_studio {
+  font-size: large;
+  display: flex;
+  gap: 200px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.btn {
+  justify-content: center;
+  align-items: center;
+  background-color: $rose-bebe;
+  color: white;
+  border: 1px solid $rose-poudre;
+  border-radius: 10px;
+  padding: 10px 20px;
+  text-align: center;
+  white-space: nowrap;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+  font-size: large;
+  &:hover {
+    background-color: $rose-bebe;
+    color: #000000;
+  }
+} 
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  #nav,
+  #nav_studio {
+    flex-direction: column;
+    gap: 20px; /* Espacement vertical pour les petits écrans */
+    justify-content: flex-start;
+    align-items: center; /* Centrer les éléments */
+  }
+
+  #logo,
+  #logo_studio {
+    max-width: 180px;
+  }
+
+  .btn {
+    width: 100%;
+    max-width: 260px;
+    padding: 10px;
+    font-size: large;
+    text-align: left; /* Aligner le texte à gauche */
+  }
+
+  /* Suppression du menu burger : pas de styles nécessaires */
+  #burger-menu {
+    display: none; /* Cacher le burger */
+  }
+
+  /* Le menu est maintenant toujours visible, horizontal et centré */
+  #nav {
+    display: flex; /* Assurer que le menu est visible */
+    flex-direction: row; /* Menu horizontal */
+    gap: 20px;
+    justify-content: center; /* Centrer les liens du menu */
+    width: 100%;
+  }
+
+  #nav_studio {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    width: 100%;
+  }
+
+  #nav a {
+    padding: 15px;
+    background-color: #D8A7B1;
+    border: none;
+    width: auto;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+}
